@@ -1,2264 +1,3018 @@
 [
   {
-    "code": "B.1.2",
-    "name": "Abattage, arrachage et dessouchage des arbres singuliers et mise en stock",
-    "unit": "U",
-    "price": 1600.0
-  },
-  {
-    "code": "OUA.B6.1.1",
-    "name": "Acier HA",
-    "unit": "Tonne",
-    "price": 67033.93
-  },
-  {
-    "code": "I.1.7",
-    "name": "Aciers de ferraillage",
-    "unit": "Kg",
-    "price": 66.08
-  },
-  {
-    "code": "OUA.NP.57.2",
-    "name": "Appareil d'appui à pot 45000 KN / 6200 kN / + - 700 mm pour Viaducs a Voussoir",
-    "unit": "U",
-    "price": 576958.6
-  },
-  {
-    "code": "OUA.NP.57.1",
-    "name": "Appareil d'appui à pot 45000 KN / 6200 kN /6200 kN  Fixe",
-    "unit": "U",
-    "price": 381136.9
-  },
-  {
-    "code": "OUA.NP.57.3",
-    "name": "Appareil d'appui à pot multidirectionnel 12000 KN / + - 750 mm / + - 550 mm pour Viaducs a Voussoir",
-    "unit": "U",
-    "price": 341437.9
-  },
-  {
-    "code": "OUA.B7.1.7",
-    "name": "Appareil d'appuis en élastomère fretté",
-    "unit": "dm3",
-    "price": 106.97
-  },
-  {
-    "code": "OUA.B7.1.6",
-    "name": "Appareil d'appuis guidé 5500/1400",
-    "unit": "U",
-    "price": 228000.87
-  },
-  {
-    "code": "OUA.B7.1.3",
-    "name": "Appareil d'appuis à pot 35100/210/5 unidirectionnel",
-    "unit": "U",
-    "price": 874995.19
-  },
-  {
-    "code": "OUA.B7.1.4",
-    "name": "Appareil d'appuis à pot 35100/210/80 multidirectionnel",
-    "unit": "U",
-    "price": 840001.59
-  },
-  {
-    "code": "OUA.B7.1.5",
-    "name": "Appareil d'appuis à pot 5500/400/50 multidirectionnel",
-    "unit": "U",
-    "price": 225001.38
-  },
-  {
-    "code": "OUA.B7.1.2",
-    "name": "Appareil d'appuis à pot 7500/210/80 multidirectionnel",
-    "unit": "U",
-    "price": 449995.02
-  },
-  {
-    "code": "I.5.1",
-    "name": "Argile compactée",
-    "unit": "m3",
-    "price": 474.48
-  },
-  {
-    "code": "OUA.B6.2",
-    "name": "Armatures de précontrainte",
-    "unit": "Tonne",
-    "price": 55688.54
-  },
-  {
-    "code": "C.8.1",
-    "name": "Arrondi de crête de talus en déblai",
-    "unit": "ml",
-    "price": 317.01
-  },
-  {
-    "code": "C.6.1",
-    "name": "Assise drainante",
-    "unit": "m3",
-    "price": 1166.55
-  },
-  {
-    "code": "J.11",
-    "name": "Atalus",
-    "unit": "m2",
-    "price": 18500.0
-  },
-  {
-    "code": "OUA.B4.3",
-    "name": "Badigeonnage des parements enterrés",
-    "unit": "m2",
-    "price": 759.08
-  },
-  {
-    "code": "NP.18",
-    "name": "Badigeonnage des parements enterés pour LOT ROUTE",
-    "unit": "m²",
-    "price": 759.08
-  },
-  {
-    "code": "G.4.1",
-    "name": "Balise de type J1",
-    "unit": "U",
-    "price": 18000.0
-  },
-  {
-    "code": "G.4.6",
-    "name": "Balise de type J14a",
-    "unit": "U",
-    "price": 46000.0
-  },
-  {
-    "code": "G.4.2",
-    "name": "Balise de type J3",
-    "unit": "U",
-    "price": 26700.0
-  },
-  {
-    "code": "G.4.3",
-    "name": "Balise de type J4",
-    "unit": "U",
-    "price": 64000.0
-  },
-  {
-    "code": "G.4.4",
-    "name": "Balise de type J5",
-    "unit": "U",
-    "price": 22500.0
-  },
-  {
-    "code": "G.4.5",
-    "name": "Balise de type J6",
-    "unit": "U",
-    "price": 24000.0
-  },
-  {
-    "code": "TU.2.3",
-    "name": "Bande continue, largeur 22,5 cm",
-    "unit": "ml",
-    "price": 135.0
-  },
-  {
-    "code": "F.1.2",
-    "name": "Bande de largeur de 100 mm",
-    "unit": "ml",
-    "price": 70.0
-  },
-  {
-    "code": "F.1.3",
-    "name": "Bande de largeur de 150 mm",
-    "unit": "ml",
-    "price": 145.0
-  },
-  {
-    "code": "F.1.4",
-    "name": "Bande de largeur de 225 mm",
-    "unit": "ml",
-    "price": 200.0
-  },
-  {
-    "code": "F.1.5",
-    "name": "Bande de largeur de 375 mm",
-    "unit": "ml",
-    "price": 340.0
-  },
-  {
-    "code": "F.1.6",
-    "name": "Bande de largeur de 500 mm",
-    "unit": "ml",
-    "price": 420.0
-  },
-  {
-    "code": "TU.E2.2",
-    "name": "Bande discontinue de module 20-6, largeur 22,5 cm",
-    "unit": "ml",
-    "price": 125.0
-  },
-  {
-    "code": "TU.E2.1",
-    "name": "Bande discontinue de module 3-10, largeur 15 cm",
-    "unit": "ml",
-    "price": 110.0
-  },
-  {
-    "code": "F.2.1",
-    "name": "Bande préfabriquée de largeur de 150 mm",
-    "unit": "ml",
-    "price": 800.0
-  },
-  {
-    "code": "OUA.C4.4.1",
-    "name": "Barbacane en PVC ? 50mm",
-    "unit": "ml",
-    "price": 500.0
-  },
-  {
-    "code": "OUA.C4.4.2",
-    "name": "Barbacane en PVC ?100mm",
-    "unit": "ml",
-    "price": 700.0
-  },
-  {
-    "code": "J.7",
-    "name": "Barbacanes en PVC de diamètre 50 mm",
-    "unit": "ml",
-    "price": 980.0
-  },
-  {
-    "code": "H.2.1.2",
-    "name": "Barrière en béton extrudé de type DBA (double talon)",
-    "unit": "ml",
-    "price": 4586.99
-  },
-  {
-    "code": "H.2.1.1",
-    "name": "Barrière en béton extrudé de type GBA (simple talon)",
-    "unit": "ml",
-    "price": 3932.51
-  },
-  {
-    "code": "OUA.B7.6.3",
-    "name": "Barrières de sécurité  de niveau H4-b 38t SELON le SETRA",
-    "unit": "ml",
-    "price": 7021.77
-  },
-  {
-    "code": "E.6.1",
-    "name": "Bordure haute normalisée (type A2) en béton préfabriqué",
-    "unit": "ml",
-    "price": 2000.0
-  },
-  {
-    "code": "D.23.1",
-    "name": "Bourrelet en enrobé",
-    "unit": "ml",
-    "price": 3000.0
-  },
-  {
-    "code": "OUA.B5.1",
-    "name": "Béton de propreté pour fond de fouille (ep=10 cm)",
-    "unit": "m2",
-    "price": 723.79
-  },
-  {
-    "code": "I.1.3",
-    "name": "Béton de propreté pour fondations",
-    "unit": "m3",
-    "price": 5919.19
-  },
-  {
-    "code": "I.1.6",
-    "name": "Béton pour fondations et longrines",
-    "unit": "m3",
-    "price": 8973.98
-  },
-  {
-    "code": "D.27.2",
-    "name": "Béton pour ouvrages divers",
-    "unit": "m3",
-    "price": 9553.28
-  },
-  {
-    "code": "OUA.C4.2",
-    "name": "Béton projeté ep=100 mm",
-    "unit": "m2",
-    "price": 1478.03
-  },
-  {
-    "code": "J.2.1",
-    "name": "Béton projeté RN 30 (ep=15cm)",
-    "unit": "m3",
-    "price": 13478.48
-  },
-  {
-    "code": "OUA.B5.2.8",
-    "name": "Béton RN 27 pour hourdis (dalle de couverture)",
-    "unit": "m3",
-    "price": 11372.71
-  },
-  {
-    "code": "OUA.B5.2.7",
-    "name": "Béton RN 27 pour murs, semelles, dalle de transition, culées, piles, chevêtres, corniches, longrines, trottoirs et dallettes de couvertures préfabriquées",
-    "unit": "m3",
-    "price": 10736.15
-  },
-  {
-    "code": "OUA.B5.2.4",
-    "name": "Béton RN 27 pour pieux et puits",
-    "unit": "m3",
-    "price": 8627.19
-  },
-  {
-    "code": "OUA.B5.2.5",
-    "name": "Béton RN 35 pour pieux et puits",
-    "unit": "m3",
-    "price": 9247.65
-  },
-  {
-    "code": "OUA.B5.2.6",
-    "name": "Béton RN 35 pour piles",
-    "unit": "m3",
-    "price": 12538.45
-  },
-  {
-    "code": "OUA.B5.2.3",
-    "name": "Béton RN 35 pour poutres préfabriquées précontraintes, entretoises et bossages",
-    "unit": "m3",
-    "price": 11029.87
-  },
-  {
-    "code": "OUA.B5.2.1",
-    "name": "Béton RN 40 pour caisson",
-    "unit": "m3",
-    "price": 21343.02
-  },
-  {
-    "code": "OUA.B5.2.2",
-    "name": "Béton RN 40 pour poutres préfabriquées précontraintes, entretoises et bossages",
-    "unit": "m3",
-    "price": 11814.08
-  },
-  {
-    "code": "OUA.NP11.84",
-    "name": "Béton RN35 pour hourdis (dalle de couverture) et pour radier de dalots à forte pente",
-    "unit": "m³",
-    "price": 15206.72
-  },
-  {
-    "code": "D.2.1",
-    "name": "Bétonnage de fossé de type A",
-    "unit": "ml",
-    "price": 4448.37
-  },
-  {
-    "code": "D.2.2",
-    "name": "Bétonnage de fossé de type B",
-    "unit": "ml",
-    "price": 5662.5
-  },
-  {
-    "code": "D.2.3",
-    "name": "Bétonnage de fossé de type C",
-    "unit": "ml",
-    "price": 6316.17
-  },
-  {
-    "code": "D.21.3",
-    "name": "Caillebotis de 1 x 1 m, classe de résistance de 125 kN",
-    "unit": "U",
-    "price": 5400.0
-  },
-  {
-    "code": "D.21.4",
-    "name": "Caillebotis de 1 x 2 m, classe de résistance de 125 kN",
-    "unit": "U",
-    "price": 9200.0
-  },
-  {
-    "code": "K.1.1",
-    "name": "Caméra de vidéosurveillance",
-    "unit": "U",
-    "price": 412003.51
-  },
-  {
-    "code": "D.6.1",
-    "name": "Caniveau en U en béton extrudé de 0,30 x0,40",
-    "unit": "ml",
-    "price": 4800.0
-  },
-  {
-    "code": "D.6.2",
-    "name": "Caniveau en U en béton extrudé de 0,40 x 0,50",
-    "unit": "ml",
-    "price": 5800.0
-  },
-  {
-    "code": "D.6.3",
-    "name": "Caniveau en U en béton extrudé de 0,45 x 0,55",
-    "unit": "ml",
-    "price": 6300.0
-  },
-  {
-    "code": "OUA.B7.4",
-    "name": "Caniveau fil d'eau en asphalte porphyre",
-    "unit": "ml",
-    "price": 1951.44
-  },
-  {
-    "code": "D.7.1",
-    "name": "Caniveau à fente en béton extrudé diamètre 300 mm",
-    "unit": "ml",
-    "price": 22200.0
-  },
-  {
-    "code": "D.7.2",
-    "name": "Caniveau à fente en béton extrudé diamètre 400 mm",
-    "unit": "ml",
-    "price": 26600.0
-  },
-  {
-    "code": "D.7.3",
-    "name": "Caniveau à fente en béton extrudé diamètre 500 mm",
-    "unit": "ml",
-    "price": 29300.0
-  },
-  {
-    "code": "D.18.1",
-    "name": "Chambre de tirage K1C",
-    "unit": "U",
-    "price": 112000.0
-  },
-  {
-    "code": "D.18.2",
-    "name": "Chambre de tirage K2C",
-    "unit": "U",
-    "price": 125000.0
-  },
-  {
-    "code": "NP.08.64",
-    "name": "Chambre de tirage L5C",
-    "unit": "U",
-    "price": 348873.07
-  },
-  {
-    "code": "B.7.2",
-    "name": "Chape d'étanchéité sur l'ouvrage",
-    "unit": "m2",
-    "price": 1895.4
-  },
-  {
-    "code": "J.2.3.1",
-    "name": "Clous de 12m",
-    "unit": "U",
-    "price": 19236.87
-  },
-  {
-    "code": "J.2.3.2",
-    "name": "Clous de 16m",
-    "unit": "U",
-    "price": 25638.93
-  },
-  {
-    "code": "J.2.3.3",
-    "name": "Clous de 20m",
-    "unit": "U",
-    "price": 32010.3
-  },
-  {
-    "code": "OUA.C4.1.2",
-    "name": "Clous de 32mm 12m",
-    "unit": "U",
-    "price": 19226.64
-  },
-  {
-    "code": "OUA.C4.1.1",
-    "name": "Clous de 32mm 16m",
-    "unit": "U",
-    "price": 25618.47
-  },
-  {
-    "code": "K.2",
-    "name": "Clôture pour le secteur de l'aéroport",
-    "unit": "ml",
-    "price": 5200.0
-  },
-  {
-    "code": "I.8.1",
-    "name": "Clôtures anti-intrusion (barbelé)",
-    "unit": "ml",
-    "price": 5934.02
-  },
-  {
-    "code": "OUA.B4.1.2",
-    "name": "Coffrage fin pour parties vues",
-    "unit": "m2",
-    "price": 1036.08
-  },
-  {
-    "code": "OUA.B4.1.1",
-    "name": "Coffrage ordinaire pour parties non vues",
-    "unit": "m2",
-    "price": 853.21
-  },
-  {
-    "code": "I.1.4",
-    "name": "Coffrage pour fondations",
-    "unit": "m2",
-    "price": 812.29
-  },
-  {
-    "code": "I.1.5",
-    "name": "Coffrage pour longrines",
-    "unit": "m2",
-    "price": 1349.88
-  },
-  {
-    "code": "D.27.3",
-    "name": "Coffrage pour ouvrages divers en béton",
-    "unit": "m2",
-    "price": 920.22
-  },
-  {
-    "code": "OUA.B4.1.3",
-    "name": "Coffrages fins et supports pour voussoirs coulés en place en suspension ou préfabriqués",
-    "unit": "m2",
-    "price": 808.48
-  },
-  {
-    "code": "D.14.1",
-    "name": "Collecteur drainant d'un diamètre de 150 mm",
-    "unit": "ml",
-    "price": 2700.0
-  },
-  {
-    "code": "K.1.3",
-    "name": "Conduits pour câblage",
-    "unit": "ml",
-    "price": 832.1
-  },
-  {
-    "code": "OUA.A3",
-    "name": "Contrôle externe - Plan d'assurance Qualité",
-    "unit": "Ft",
-    "price": 30000003.27
-  },
-  {
-    "code": "A.2.2",
-    "name": "Contrôle externe des travaux",
-    "unit": "Ft",
-    "price": 33983960.76
-  },
-  {
-    "code": "A.3.2",
-    "name": "Contrôle externe des études",
-    "unit": "Ft",
-    "price": 45999996.83
-  },
-  {
-    "code": "E.4.2",
-    "name": "Couche d'accrochage",
-    "unit": "m2",
-    "price": 70.0
-  },
-  {
-    "code": "E.4.1",
-    "name": "Couche d'imprégnation",
-    "unit": "m2",
-    "price": 95.0
-  },
-  {
-    "code": "TU.E1.5",
-    "name": "Couche d'imprégnation",
-    "unit": "m2",
-    "price": 95.0
-  },
-  {
-    "code": "TU.E1.1",
-    "name": "Couche de fondation en grave non traitée (GNT)",
-    "unit": "m3",
-    "price": 1862.41
-  },
-  {
-    "code": "NP.08.74",
-    "name": "Couche de forme, en matériaux sélectionnés de type 0/31,5 fournis par l'entreprise conformément aux plans d'executions.",
-    "unit": "m3",
-    "price": 1950.0
-  },
-  {
-    "code": "C.9.1",
-    "name": "Couche de forme, matériaux fournis par l'Entreprise",
-    "unit": "m3",
-    "price": 1346.55
-  },
-  {
-    "code": "TU.E1.4",
-    "name": "Couche de roulement en béton bitumineux",
-    "unit": "Tonne",
-    "price": 4337.9
-  },
-  {
-    "code": "E.3.2",
-    "name": "Couche de roulement en béton bitumineux module élevé (BBM A 0/10)",
-    "unit": "Tonne",
-    "price": 4650.19
-  },
-  {
-    "code": "E.3.3",
-    "name": "Couche de roulement en béton bitumineux module élevé (BBME 0/10)",
-    "unit": "Tonne",
-    "price": 4670.65
-  },
-  {
-    "code": "E.3.1",
-    "name": "Couche de roulement en béton bitumineux semi-grenu, BBSG 0/14",
-    "unit": "Tonne",
-    "price": 4337.9
-  },
-  {
-    "code": "OUA.B3.1",
-    "name": "Creusement manuel ou mécanique des puits ? 3000 mm",
-    "unit": "ml",
-    "price": 124999.63
-  },
-  {
-    "code": "OUA.B3.2",
-    "name": "Creusement manuel ou mécanique des puits ? 3500 mm",
-    "unit": "ml",
-    "price": 135004.92
-  },
-  {
-    "code": "D.3.2",
-    "name": "Cunettes triangulaires dissymétriques en béton extrudé",
-    "unit": "ml",
-    "price": 4304.81
-  },
-  {
-    "code": "D.3.1",
-    "name": "Cunettes triangulaires dissymétriques étanches végétalisées",
-    "unit": "ml",
-    "price": 3402.4
-  },
-  {
-    "code": "D.3.3",
-    "name": "Cunettes triangulaires symétriques en béton extrudé",
-    "unit": "ml",
-    "price": 4829.18
-  },
-  {
-    "code": "K.1.4",
-    "name": "Câblage des caméras",
-    "unit": "ml",
-    "price": 448.69
-  },
-  {
-    "code": "D.8.1",
-    "name": "Demi-buse d'un diamètre de 300 mm",
-    "unit": "ml",
-    "price": 4400.0
-  },
-  {
-    "code": "D.8.2",
-    "name": "Demi-buse d'un diamètre de 400 mm",
-    "unit": "ml",
-    "price": 5700.0
-  },
-  {
-    "code": "D.8.3",
-    "name": "Demi-buse d'un diamètre de 500 mm",
-    "unit": "ml",
-    "price": 7800.0
-  },
-  {
-    "code": "D.4.1",
-    "name": "Descentes d'eau en escalier de type A",
-    "unit": "ml",
-    "price": 2912.86
-  },
-  {
-    "code": "D.4.2",
-    "name": "Descentes d'eau en escalier de type B",
-    "unit": "ml",
-    "price": 3357.57
-  },
-  {
-    "code": "D.4.3",
-    "name": "Descentes d'eau en escalier de type C",
-    "unit": "ml",
-    "price": 3634.81
-  },
-  {
-    "code": "D.4.4",
-    "name": "Descentes d'eau en escalier de type D",
-    "unit": "ml",
-    "price": 4119.98
-  },
-  {
-    "code": "D.5.1",
-    "name": "Descentes d'eau en tuile de type A",
-    "unit": "ml",
-    "price": 2200.0
-  },
-  {
-    "code": "D.5.2",
-    "name": "Descentes d'eau en tuile de type B",
-    "unit": "ml",
-    "price": 3520.0
-  },
-  {
-    "code": "D.5.3",
-    "name": "Descentes d'eau en tuile de type C",
-    "unit": "ml",
-    "price": 4200.0
-  },
-  {
-    "code": "D.13.2",
-    "name": "Diamètre de 1000 mm",
-    "unit": "ml",
-    "price": 21631.72
-  },
-  {
-    "code": "D.13.3",
-    "name": "Diamètre de 1200 mm",
-    "unit": "ml",
-    "price": 36375.97
-  },
-  {
-    "code": "D.13.4",
-    "name": "Diamètre de 1500 mm",
-    "unit": "ml",
-    "price": 50775.97
-  },
-  {
-    "code": "D.12.1",
-    "name": "Diamètre de 400 mm",
-    "unit": "ml",
-    "price": 7769.31
-  },
-  {
-    "code": "D.12.2",
-    "name": "Diamètre de 600 mm",
-    "unit": "ml",
-    "price": 9369.31
-  },
-  {
-    "code": "D.13.1",
-    "name": "Diamètre de 800 mm",
-    "unit": "ml",
-    "price": 15498.73
-  },
-  {
-    "code": "OUA.B7.7",
-    "name": "Dispositifs d'amortissement parasismique",
-    "unit": "U",
-    "price": 579.41
-  },
-  {
-    "code": "A.3.3",
-    "name": "Dossier de récolement",
-    "unit": "Ft",
-    "price": 33568500.0
-  },
-  {
-    "code": "OUA.A2.2",
-    "name": "Dossier de récolement",
-    "unit": "Ft",
-    "price": 43970223.22
-  },
-  {
-    "code": "OUA.NP08.41",
-    "name": "Drain perforé 150 -160 mm pour dalot et OA  lot ouvrage d'art",
-    "unit": "ml",
-    "price": 2700.0
-  },
-  {
-    "code": "J.6.1",
-    "name": "Drains subhorizontaux",
-    "unit": "ml",
-    "price": 4700.0
-  },
-  {
-    "code": "C.4.1",
-    "name": "Déblai meuble mis en dépôt",
-    "unit": "m3",
-    "price": 148.16
-  },
-  {
-    "code": "C.3.1",
-    "name": "Déblai meuble mis en remblai",
-    "unit": "m3",
-    "price": 257.24
-  },
-  {
-    "code": "D.9.1",
-    "name": "Déblai pour tranchées de profondeur entre 0 et 2 m",
-    "unit": "m3",
-    "price": 217.93
-  },
-  {
-    "code": "D.9.2",
-    "name": "Déblai pour tranchées de profondeur entre 2 à 4 m",
-    "unit": "m3",
-    "price": 277.24
-  },
-  {
-    "code": "D.9.3",
-    "name": "Déblai pour tranchées de profondeur entre 4 et 6 m",
-    "unit": "m3",
-    "price": 326.55
-  },
-  {
-    "code": "C.4.3",
-    "name": "Déblai rocheux dur mis en dépôt",
-    "unit": "m3",
-    "price": 893.1
-  },
-  {
-    "code": "C.3.3",
-    "name": "Déblai rocheux dur mis en remblai",
-    "unit": "m3",
-    "price": 1308.96
-  },
-  {
-    "code": "C.4.2",
-    "name": "Déblai semi-dur mis en dépôt",
-    "unit": "m3",
-    "price": 307.7
-  },
-  {
-    "code": "C.3.2",
-    "name": "Déblai semi-dur mis en remblai",
-    "unit": "m3",
-    "price": 386.32
-  },
-  {
-    "code": "D.27.1",
-    "name": "Déblais pour aménagement divers",
-    "unit": "m3",
-    "price": 178.16
-  },
-  {
-    "code": "I.4.1",
-    "name": "Déblais pour bassins",
-    "unit": "m3",
-    "price": 168.16
-  },
-  {
-    "code": "OUA.B1.1",
-    "name": "Déblais pour fouilles",
-    "unit": "m3",
-    "price": 178.16
-  },
-  {
-    "code": "B.1.1",
-    "name": "Débroussaillage, évacuation de blocs rocheux et nettoyage d'emprise",
-    "unit": "Ha",
-    "price": 619820.41
-  },
-  {
-    "code": "C.1.1",
-    "name": "Décapage de terre végétale",
-    "unit": "m3",
-    "price": 128.62
-  },
-  {
-    "code": "B.2.1",
-    "name": "Démolition d'ouvrages divers",
-    "unit": "m3",
-    "price": 1335.05
-  },
-  {
-    "code": "B.2.2",
-    "name": "Démolition d'ouvrages en béton armé",
-    "unit": "m3",
-    "price": 1620.22
-  },
-  {
-    "code": "OUA.B1.6",
-    "name": "Démolition d'ouvrages existants en béton",
-    "unit": "m3",
-    "price": 1800.0
-  },
-  {
-    "code": "B.2.3",
-    "name": "Démolition de chaussées, trottoirs et accotements revêtus",
-    "unit": "m3",
-    "price": 207.7
-  },
-  {
-    "code": "NP.48",
-    "name": "Déplacement du cimetière",
-    "unit": "U",
-    "price": 22275.0
-  },
-  {
-    "code": "B.1.3",
-    "name": "Dépose soignée des structures métalliques ou en bois",
-    "unit": "Tonne",
-    "price": 944.25
-  },
-  {
-    "code": "I.9.4",
-    "name": "Engazonnement",
-    "unit": "m2",
-    "price": 637.19
-  },
-  {
-    "code": "D.11.2",
-    "name": "Enrobage des tuyaux en béton",
-    "unit": "m3",
-    "price": 5593.89
-  },
-  {
-    "code": "D.11.1",
-    "name": "Enrobage des tuyaux en grave naturelle",
-    "unit": "m3",
-    "price": 1437.35
-  },
-  {
-    "code": "D.11.3",
-    "name": "Enrobage des tuyaux en matériaux drainants pour tuyaux perforés",
-    "unit": "m3",
-    "price": 1739.65
-  },
-  {
-    "code": "TU.E1.3",
-    "name": "Enrobé à module élevé (EME)",
-    "unit": "Tonne",
-    "price": 4812.84
-  },
-  {
-    "code": "E.2.2",
-    "name": "Enrobés à module élevé (EME 2)",
-    "unit": "Tonne",
-    "price": 4782.15
-  },
-  {
-    "code": "I.5.3",
-    "name": "Enrochement",
-    "unit": "m3",
-    "price": 2205.85
-  },
-  {
-    "code": "D.24.1",
-    "name": "Enrochement de type A (600 mm < blocomètrie < 1200 mm)",
-    "unit": "m3",
-    "price": 1879.3
-  },
-  {
-    "code": "D.24.2",
-    "name": "Enrochement de type B (400 mm < blocomètrie < 800 mm)",
-    "unit": "m3",
-    "price": 1879.3
-  },
-  {
-    "code": "D.24.3",
-    "name": "Enrochement de type C (200 mm < blocomètrie < 400 mm)",
-    "unit": "m3",
-    "price": 1879.3
-  },
-  {
-    "code": "OUA.B1.7",
-    "name": "Enrochements",
-    "unit": "m3",
-    "price": 1245.4
-  },
-  {
-    "code": "D.25.1",
-    "name": "Enrochements liés de type A (600 mm< Blocomètre < 1200 mm)",
-    "unit": "m3",
-    "price": 2042.98
-  },
-  {
-    "code": "OUA.B2.5",
-    "name": "Essai d'auscultation sonique",
-    "unit": "U",
-    "price": 16000.0
-  },
-  {
-    "code": "NP.11.14e.1",
-    "name": "Essai Sismique a réfraction",
-    "unit": "ml",
-    "price": 1566.0
-  },
-  {
-    "code": "OUA.NP11.14e.2",
-    "name": "Essai Sismique a réfraction",
-    "unit": "ml",
-    "price": 1566.0
-  },
-  {
-    "code": "NP.11.14d.1",
-    "name": "Essai Tomographie électrique",
-    "unit": "ml",
-    "price": 851.0
-  },
-  {
-    "code": "OUA.NP11.14d.2",
-    "name": "Essai Tomographie électrique",
-    "unit": "ml",
-    "price": 851.0
-  },
-  {
-    "code": "J.8.4",
-    "name": "Essais d'ancrages passifs",
-    "unit": "U",
-    "price": 32400.0
-  },
-  {
-    "code": "OUA.NP.09d",
-    "name": "Essais destructif pour tirantes",
-    "unit": "U",
-    "price": 96892.4
-  },
-  {
-    "code": "OUA.NP.09c",
-    "name": "Essais non destructif pour tirantes",
-    "unit": "U",
-    "price": 35832.83
-  },
-  {
-    "code": "NP.11.14c.1",
-    "name": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 10000.0
-  },
-  {
-    "code": "OUA.NP11.14c.2",
-    "name": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 10000.0
-  },
-  {
-    "code": "OUA.B2.7",
-    "name": "Essais statiques de pieux isolés sous compression axiale",
-    "unit": "U",
-    "price": 1520000.0
-  },
-  {
-    "code": "J.8.3",
-    "name": "Execution d'ancrages passifs d'un diamètre de 25mm",
-    "unit": "ml",
-    "price": 664.47
-  },
-  {
-    "code": "J.8.2",
-    "name": "Execution d'ancrages passifs d'un diamètre de 28mm",
-    "unit": "ml",
-    "price": 531.48
-  },
-  {
-    "code": "J.8.1",
-    "name": "Execution d'ancrages passifs d'un diamètre de 32mm",
-    "unit": "ml",
-    "price": 470.1
-  },
-  {
-    "code": "H.3.2",
-    "name": "Extrémité de file GBA sur 1,65 mètre",
-    "unit": "U",
-    "price": 6032.27
-  },
-  {
-    "code": "H.3.1",
-    "name": "Extrémité de file GBA sur 20,00 mètres",
-    "unit": "U",
-    "price": 5150.55
-  },
-  {
-    "code": "NP.11.14a.1",
-    "name": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 18000.0
-  },
-  {
-    "code": "OUA.NP11.14a.2",
-    "name": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 18000.0
-  },
-  {
-    "code": "NP.11.14b.1",
-    "name": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 15500.0
-  },
-  {
-    "code": "OUA.NP11.14b.2",
-    "name": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
-    "unit": "ml",
-    "price": 15500.0
-  },
-  {
-    "code": "D.27.4",
-    "name": "Ferraillage pour ouvrages divers en béton",
-    "unit": "Kg",
-    "price": 65.08
-  },
-  {
-    "code": "NP.32",
-    "name": "Fibres pour Beton de fossè et canalette",
-    "unit": "Kg",
-    "price": 974.7
-  },
-  {
-    "code": "OUA.B2.1",
-    "name": "Forage des pieux verticaux ?1200 mm en terrain non rocheux",
-    "unit": "ml",
-    "price": 5404.19
-  },
-  {
-    "code": "D.1.1",
-    "name": "Fossé trapézoïdale non revêtu de type A",
-    "unit": "ml",
-    "price": 495.86
-  },
-  {
-    "code": "D.1.2",
-    "name": "Fossé trapézoïdale non revêtu de type B",
-    "unit": "ml",
-    "price": 594.94
-  },
-  {
-    "code": "D.1.3",
-    "name": "Fossé trapézoïdale non revêtu de type C",
-    "unit": "ml",
-    "price": 897.18
-  },
-  {
-    "code": "I.1.1",
-    "name": "Fouilles pour fondations",
-    "unit": "m3",
-    "price": 178.16
-  },
-  {
-    "code": "OUA.B2.4",
-    "name": "Fourniture et mise en oeuvre des tubes métalliques Ø102/114 pour auscultation sonique",
-    "unit": "ml",
-    "price": 5.15
-  },
-  {
-    "code": "OUA.B2.3",
-    "name": "Fourniture et mise en oeuvre des tubes métalliques Ø50/60 pour auscultation sonique",
-    "unit": "ml",
-    "price": 115.62
-  },
-  {
-    "code": "OUA.NP08.60",
-    "name": "Fourniture et mise en place de Grille en acier inox composè en fer rond fi 16 mm et corniere 40x40x4 mm",
-    "unit": "U",
-    "price": 92769.59
-  },
-  {
-    "code": "OUA.NP08.70",
-    "name": "Fourniture et pose des cales biaises",
-    "unit": "U",
-    "price": 25000.0
-  },
-  {
-    "code": "OUA.NP11.58.1",
-    "name": "Fourniture et pose des éléments ancillaires en acier galvanisé à chaud",
-    "unit": "kg",
-    "price": 1531.53
-  },
-  {
-    "code": "OUA.B7.6.1",
-    "name": "Garde-corps type N2 selon le SETRA et la Norme 1317 (1,2)",
-    "unit": "ml",
-    "price": 23146.55
-  },
-  {
-    "code": "OUA.B7.3",
-    "name": "Gargouilles",
-    "unit": "U",
-    "price": 5128.39
-  },
-  {
-    "code": "OUA.B7.6.2",
-    "name": "Glissière de sécurité de niveau H3-16t et la Norme 1317 (1,2)",
-    "unit": "ml",
-    "price": 3761.9
-  },
-  {
-    "code": "H.1.1.1",
-    "name": "Glissières de sécurité GS4 - Profil A  L = 2,00 m",
-    "unit": "ml",
-    "price": 1238.45
-  },
-  {
-    "code": "E.2.1",
-    "name": "Grave bitume GB 0/20",
-    "unit": "Tonne",
-    "price": 3390.32
-  },
-  {
-    "code": "E.1.1",
-    "name": "Grave non traitée (GNT A 0/31.5)",
-    "unit": "m3",
-    "price": 1922.64
-  },
-  {
-    "code": "I.5.4",
-    "name": "Grave Non traitée (GNT)",
-    "unit": "m3",
-    "price": 2179.54
-  },
-  {
-    "code": "J.10",
-    "name": "Grillage boulonné",
-    "unit": "m2",
-    "price": 9957.81
-  },
-  {
-    "code": "NP.08.65",
-    "name": "Grille anti chute pour K2C ou K1C",
-    "unit": "U",
-    "price": 41364.79
-  },
-  {
-    "code": "D.21.1",
-    "name": "Grille d'avaloir carré de 700 x 700 mm, classe de résistance de 400 kN",
-    "unit": "U",
-    "price": 32000.0
-  },
-  {
-    "code": "D.21.2",
-    "name": "Grille d'avaloir rectangulaire de 250 x 400 mm, classe de résistance de 400 kN",
-    "unit": "U",
-    "price": 26826.09
-  },
-  {
-    "code": "NP.26",
-    "name": "Géocomposite pour protection talus marnose",
-    "unit": "m²",
-    "price": 764.73
-  },
-  {
-    "code": "C.7.3",
-    "name": "Géogrille",
-    "unit": "m2",
-    "price": 418.04
-  },
-  {
-    "code": "J.9",
-    "name": "Géotextile alvéolaire",
-    "unit": "m2",
-    "price": 780.0
-  },
-  {
-    "code": "OUA.NP.36",
-    "name": "Géotextile anti-contaminant pour LOT OUVRAGES D'ART",
-    "unit": "m²",
-    "price": 258.27
-  },
-  {
-    "code": "C.7.2",
-    "name": "Géotextile anti-contimant",
-    "unit": "m2",
-    "price": 258.27
-  },
-  {
-    "code": "C.7.1",
-    "name": "Géotextile de renforcement",
-    "unit": "m2",
-    "price": 290.8
-  },
-  {
-    "code": "NP.08.14m",
-    "name": "Inclinomètres",
-    "unit": "U",
-    "price": 209998.56
-  },
-  {
-    "code": "OUA.NP08.02",
-    "name": "Installation et assemblage de voussoirs  prèfabbriquès",
-    "unit": "m3",
-    "price": 8711.3
-  },
-  {
-    "code": "OUA.A1",
-    "name": "Installation et repliement de chantier",
-    "unit": "Ft",
-    "price": 1010357152.02
-  },
-  {
-    "code": "A.1",
+    "poz": "A1",
     "name": "Installation et repliement du chantier",
     "unit": "Ft",
-    "price": 1041277260.86
+    "dzd": 1041277260.86,
+    "eur": 4972851.8,
+    "dzd_eqv": 1550000000.0
   },
   {
-    "code": "OUA.NP.06",
-    "name": "Isolateur simiques pour Viaducs a Voussoir",
-    "unit": "U",
-    "price": 134282.61
-  },
-  {
-    "code": "G.6.2",
-    "name": "Jalonneur sur pied avec deux réflecteurs",
-    "unit": "U",
-    "price": 9380.0
-  },
-  {
-    "code": "G.6.1",
-    "name": "Jalonneur sur pied avec un réflecteur",
-    "unit": "U",
-    "price": 8450.0
-  },
-  {
-    "code": "OUA.NP08.72",
-    "name": "Joint de chaussee souffle entre  100 mm  au 140mm",
-    "unit": "ml",
-    "price": 31500.0
-  },
-  {
-    "code": "OUA.NP08.44",
-    "name": "Joint Water Stop pour dalot en PVC 200 à 250mm",
-    "unit": "ml",
-    "price": 2550.0
-  },
-  {
-    "code": "OUA.NP11.03",
-    "name": "Joints de chaussée avec souffle de 250 à 400 mm",
-    "unit": "ml",
-    "price": 26173.22
-  },
-  {
-    "code": "OUA.NP.11.04",
-    "name": "Joints de chaussée avec souffle de 500 à 800 mm",
-    "unit": "ml",
-    "price": 102606.0
-  },
-  {
-    "code": "OUA.NP.35",
-    "name": "Joints pour dalot y compris polystyrène de type bandes agrée",
-    "unit": "ml",
-    "price": 6820.0
-  },
-  {
-    "code": "A.2.1",
+    "poz": "A2.1",
     "name": "Laboratoire de chantier",
     "unit": "Ft",
-    "price": 41644039.15
+    "dzd": 41644039.15,
+    "eur": 570439.5,
+    "dzd_eqv": 100000000.0
   },
   {
-    "code": "D.10.2",
-    "name": "Lit de pose en béton",
-    "unit": "m3",
-    "price": 5962.17
-  },
-  {
-    "code": "D.10.1",
-    "name": "Lit de pose en sable",
-    "unit": "m3",
-    "price": 1455.51
-  },
-  {
-    "code": "F.1.9",
-    "name": "Marquage de flèche bidirectionnelle",
-    "unit": "U",
-    "price": 820.0
-  },
-  {
-    "code": "F.1.8",
-    "name": "Marquage de flèche unidirectionnelle",
-    "unit": "U",
-    "price": 800.0
-  },
-  {
-    "code": "F.1.7",
-    "name": "Marquage de flèches de rabattement",
-    "unit": "U",
-    "price": 600.0
-  },
-  {
-    "code": "F.1.1",
-    "name": "Marquage par hachures (zébras)",
-    "unit": "m2",
-    "price": 680.0
-  },
-  {
-    "code": "NP.27",
-    "name": "Masque a poids - Hors géotextile anticontimant à compenser avec Prix C7.2",
-    "unit": "MC",
-    "price": 3405.85
-  },
-  {
-    "code": "J.5",
-    "name": "Masque poids pour stabilisation de talus",
-    "unit": "m3",
-    "price": 1200.0
-  },
-  {
-    "code": "OUA.NP08.71",
-    "name": "Matériaux drainant pour purge ,en gravier 04/63",
-    "unit": "m3",
-    "price": 2200.0
-  },
-  {
-    "code": "J.3.1",
-    "name": "Mise en .uvre de merlons",
-    "unit": "m3",
-    "price": 217.7
-  },
-  {
-    "code": "OUA.B8",
-    "name": "Multitubulaires",
-    "unit": "ml",
-    "price": 1800.0
-  },
-  {
-    "code": "OUA.C6",
-    "name": "Mur de soutènement en gabion sur une hauteur max de 6 m",
-    "unit": "m3",
-    "price": 5500.0
-  },
-  {
-    "code": "J.1.1",
-    "name": "Mur de soutènement en gabions",
-    "unit": "m3",
-    "price": 3034.57
-  },
-  {
-    "code": "TU.E3.1.2",
-    "name": "Panneau  (signal B12)",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "TU.E3.1.5",
-    "name": "panneau  (signaux B18aB18c,B18c);",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "G.1.6",
-    "name": "Panneau carré de gamme normale (côté nominal 700 mm)",
-    "unit": "U",
-    "price": 38800.0
-  },
-  {
-    "code": "G.1.5",
-    "name": "Panneau carré de très grande gamme (côté nominal 1050 mm)",
-    "unit": "U",
-    "price": 43000.0
-  },
-  {
-    "code": "G.1.4",
-    "name": "Panneau circulaire de gamme normale (diamètre de 850 mm)",
-    "unit": "U",
-    "price": 41500.0
-  },
-  {
-    "code": "G.1.3",
-    "name": "Panneau circulaire de très grande gamme (diamètre de 1250 mm)",
-    "unit": "U",
-    "price": 48600.0
-  },
-  {
-    "code": "A.5",
-    "name": "Panneau d'identification de l'opération de surface de 6,00 m2",
-    "unit": "Unité",
-    "price": 1775000.0
-  },
-  {
-    "code": "TU.E3.1.4",
-    "name": "panneau d'interdiction de dépasser (signaux B3 et B3a);",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "G.3.1",
-    "name": "Panneau de direction de type D",
-    "unit": "m2",
-    "price": 64000.0
-  },
-  {
-    "code": "G.2.2",
-    "name": "Panneau de type E",
-    "unit": "m2",
-    "price": 57000.0
-  },
-  {
-    "code": "TU.E3.1.3",
-    "name": "panneau de vitesse maximale autorisée dans le tunnel (signal B14)",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "G.1.7",
-    "name": "Panneau octogonal de gamme normale (largeur de 800 mm)",
-    "unit": "U",
-    "price": 40700.0
-  },
-  {
-    "code": "G.1.2",
-    "name": "Panneau triangulaire de gamme normale (côté nominal 1000 mm)",
-    "unit": "U",
-    "price": 42400.0
-  },
-  {
-    "code": "G.1.1",
-    "name": "Panneau triangulaire de très grande gamme (côté nominal 1500 mm)",
-    "unit": "U",
-    "price": 52000.0
-  },
-  {
-    "code": "TU.E3.1.1",
-    "name": "Panneau « Tunnel » (signal C111)",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "TU.E3.1.6",
-    "name": "panneau « sortie de tunnel » (signal C112)",
-    "unit": "U",
-    "price": 11768.62
-  },
-  {
-    "code": "RU.E3.4.3",
-    "name": "Panneaux de consignes des galeries intertubes",
-    "unit": "U",
-    "price": 18750.48
-  },
-  {
-    "code": "TU.E3.4.2",
-    "name": "Panneaux de consignes des niches d'incendie",
-    "unit": "U",
-    "price": 18750.48
-  },
-  {
-    "code": "TU.E3.4.1",
-    "name": "Panneaux de consignes des niches de sécurité",
-    "unit": "U",
-    "price": 18750.48
-  },
-  {
-    "code": "I.3.1",
-    "name": "Panneaux réfléchissants en béton expansé",
-    "unit": "m2",
-    "price": 88750.0
-  },
-  {
-    "code": "G.2.1",
-    "name": "Panonceau de type M",
-    "unit": "m2",
-    "price": 42000.0
-  },
-  {
-    "code": "OUA.NP.59",
-    "name": "Passerelles permanentes en acier",
-    "unit": "kg",
-    "price": 550.0
-  },
-  {
-    "code": "OUA.C2",
-    "name": "Perres maçonnées",
-    "unit": "m2",
-    "price": 2554.48
-  },
-  {
-    "code": "J.14",
-    "name": "Perrés maçonnés",
-    "unit": "m2",
-    "price": 2554.48
-  },
-  {
-    "code": "TU.E1.2",
-    "name": "Pierre nette 15/25",
-    "unit": "m3",
-    "price": 2800.0
-  },
-  {
-    "code": "I.9.1",
-    "name": "Plantation d'arbres",
-    "unit": "m2",
-    "price": 1545.17
-  },
-  {
-    "code": "I.9.5",
-    "name": "Plantation d'arbustes",
-    "unit": "m2",
-    "price": 797.0
-  },
-  {
-    "code": "I.9.3",
-    "name": "Plantation d'espèces d'arbrisseaux",
-    "unit": "m2",
-    "price": 1103.0
-  },
-  {
-    "code": "I.9.2",
-    "name": "Plantation de baliveaux",
-    "unit": "m2",
-    "price": 1822.86
-  },
-  {
-    "code": "OUA.B7.1.1",
-    "name": "Plot parasismique 2100/210/80, multidirectionnel",
-    "unit": "U",
-    "price": 260001.71
-  },
-  {
-    "code": "G.7.2",
-    "name": "Plots rétroréfléchissants",
-    "unit": "U",
-    "price": 2280.0
-  },
-  {
-    "code": "OUA.B1.2",
-    "name": "Plus value pour fouilles en terrain rocheux",
-    "unit": "m3",
-    "price": 1113.56
-  },
-  {
-    "code": "NP.08.62",
-    "name": "Plus-value au prix J8 pour l'utilisation de plaque d'appui épaisseur 20 mm",
-    "unit": "U",
-    "price": 630.0
-  },
-  {
-    "code": "OUA.B2.2",
-    "name": "Plus-value pour forage en terrain rocheux nécessitant l'emploi d'un trépan",
-    "unit": "ml",
-    "price": 802.06
-  },
-  {
-    "code": "OUA.B5.2.9",
-    "name": "Plus-value pour l'utilisation du béton avec ciment CRS RN 27",
-    "unit": "m3",
-    "price": 1200.0
-  },
-  {
-    "code": "OUA.B5.2.10",
-    "name": "Plus-value pour l'utilisation du béton avec ciment CRS RN 35",
-    "unit": "m3",
-    "price": 1500.0
-  },
-  {
-    "code": "D.9.4",
-    "name": "Plus-value pour terrain rocheux",
-    "unit": "m3",
-    "price": 1500.0
-  },
-  {
-    "code": "I.8.2",
-    "name": "Portail double battant",
-    "unit": "U",
-    "price": 250000.0
-  },
-  {
-    "code": "TU.E3.5",
-    "name": "Portique  hors de gabarit",
-    "unit": "U",
-    "price": 309995.66
-  },
-  {
-    "code": "NP.11",
-    "name": "Poste d'observation (compris le PV de sortie du 09/06/2015) / Pistes pour les militaires/ Poste d'observation pour dépôt d’explosif de tunnel",
-    "unit": "U",
-    "price": 12200000.0
-  },
-  {
-    "code": "K.1.2",
-    "name": "Poteau pour caméra",
-    "unit": "U",
-    "price": 23504.98
-  },
-  {
-    "code": "G.5.3",
-    "name": "Poteaux de moment inertie 100 cm4 < Ix < 200 cm4",
-    "unit": "ml",
-    "price": 16294.33
-  },
-  {
-    "code": "G.5.6",
-    "name": "Poteaux de moment inertie 1600 cm4 < Ix < 3 200 cm4",
-    "unit": "ml",
-    "price": 32588.67
-  },
-  {
-    "code": "G.5.1",
-    "name": "Poteaux de moment inertie 25 cm4 < Ix < 50 cm4",
-    "unit": "ml",
-    "price": 9776.59
-  },
-  {
-    "code": "G.5.4",
-    "name": "Poteaux de moment inertie 400 cm4 < Ix < 800 cm4",
-    "unit": "ml",
-    "price": 19553.22
-  },
-  {
-    "code": "G.5.2",
-    "name": "Poteaux de moment inertie 50 cm4 < Ix < 100 cm4",
-    "unit": "ml",
-    "price": 13035.47
-  },
-  {
-    "code": "G.5.5",
-    "name": "Poteaux de moment inertie 800 cm4 < Ix < 1 600 cm4",
-    "unit": "ml",
-    "price": 26070.91
-  },
-  {
-    "code": "OUA.C5.1",
-    "name": "Pour mur de hauteur de 2m à 4m",
-    "unit": "m2",
-    "price": 18500.0
-  },
-  {
-    "code": "OUA.C5.2",
-    "name": "Pour mur de hauteur de 4m à 6m",
-    "unit": "m2",
-    "price": 21000.0
-  },
-  {
-    "code": "OUA.C5.3",
-    "name": "Pour mur de hauteur plus de 6m",
-    "unit": "m2",
-    "price": 25000.0
-  },
-  {
-    "code": "J.12.1",
-    "name": "Pour murs d'une hauteur de moins de 15 m",
-    "unit": "m2",
-    "price": 13600.0
-  },
-  {
-    "code": "J.12.2",
-    "name": "Pour murs d'une hauteur de plus de 15 m",
-    "unit": "m2",
-    "price": 15700.0
-  },
-  {
-    "code": "OUA.NP.10",
-    "name": "Poutre métallique pour ancrage des tirants",
-    "unit": "kg",
-    "price": 183.0
-  },
-  {
-    "code": "D.19.1",
-    "name": "Profondeur inférieure à 2 mètres",
-    "unit": "U",
-    "price": 120000.0
-  },
-  {
-    "code": "OUA.A5",
-    "name": "Protection de l'environnement",
+    "poz": "A2.2",
+    "name": "Contrôle externe des travaux",
     "unit": "Ft",
-    "price": 34999998.7
+    "dzd": 33983960.76,
+    "eur": 400938.8,
+    "dzd_eqv": 75000000.0
   },
   {
-    "code": "OUA.NP08.01",
-    "name": "Précontrainte extérieure",
-    "unit": "Tonne",
-    "price": 124806.5
-  },
-  {
-    "code": "D.20.1",
-    "name": "Puisard avec dimensions inférieures à 1000x1000x3500",
-    "unit": "U",
-    "price": 150000.0
-  },
-  {
-    "code": "D.20.2",
-    "name": "Puisard avec dimensions inférieures à 1500x1300x3500",
-    "unit": "U",
-    "price": 174000.0
-  },
-  {
-    "code": "D.20.3",
-    "name": "Puisard avec dimensions inférieures à 1500x1500x3500",
-    "unit": "U",
-    "price": 188000.0
-  },
-  {
-    "code": "D.20.4",
-    "name": "Puisard avec dimensions inférieures à 1500x1800x3500",
-    "unit": "U",
-    "price": 215000.0
-  },
-  {
-    "code": "D.20.5",
-    "name": "Puisard avec dimensions inférieures à 1500x2000x3500",
-    "unit": "U",
-    "price": 220000.0
-  },
-  {
-    "code": "D.20.6",
-    "name": "Puisard avec dimensions inférieures à 1500x2500x3500",
-    "unit": "U",
-    "price": 260000.0
-  },
-  {
-    "code": "C.2.2",
-    "name": "Purges",
-    "unit": "m3",
-    "price": 2200.0
-  },
-  {
-    "code": "B.3.2",
-    "name": "Rabotage pour une épaisseur entre 100 et 200 mm",
-    "unit": "m2",
-    "price": 98.62
-  },
-  {
-    "code": "B.3.1",
-    "name": "Rabotage pour une épaisseur inférieure ou égale à 100 mm",
-    "unit": "m2",
-    "price": 88.85
-  },
-  {
-    "code": "OUA.A4",
-    "name": "Reconnaissance géotechnique",
+    "poz": "A3.1",
+    "name": "Études dexécution",
     "unit": "Ft",
-    "price": 210000002.43
+    "dzd": 212842500.0,
+    "eur": 2025000.0,
+    "dzd_eqv": 420000000.0
   },
   {
-    "code": "A.3.5",
-    "name": "Reconnaissances géotechniques, géologiques et hydrogéologiques",
+    "poz": "A3.2",
+    "name": "Contrôle externe des études",
     "unit": "Ft",
-    "price": 40209555.68
+    "dzd": 45999996.83,
+    "eur": 449657.9,
+    "dzd_eqv": 92000000.0
   },
   {
-    "code": "OUA.B2.6",
-    "name": "Recépage des pieux",
-    "unit": "U",
-    "price": 2237.11
-  },
-  {
-    "code": "I.7.1",
-    "name": "Regard siphoïde, débit de surverse de 250 l/s",
-    "unit": "U",
-    "price": 280000.0
-  },
-  {
-    "code": "C.5.1",
-    "name": "Remblai en provenance d'emprunt",
-    "unit": "m3",
-    "price": 555.63
-  },
-  {
-    "code": "OUA.B1.3",
-    "name": "Remblaiement de fouilles",
-    "unit": "m3",
-    "price": 613.56
-  },
-  {
-    "code": "I.1.2",
-    "name": "Remblaiement des fouilles de fondation",
-    "unit": "m3",
-    "price": 822.41
-  },
-  {
-    "code": "OUA.B1.4",
-    "name": "Remblais aux abords immédiats des ouvrages",
-    "unit": "m3",
-    "price": 734.02
-  },
-  {
-    "code": "OUA.NP08.38",
-    "name": "Remblais contigus en matériaux concassés 0/63",
-    "unit": "m3",
-    "price": 2134.02
-  },
-  {
-    "code": "D.7.4",
-    "name": "Renforcement des caniveaux à fente sous circulation lourde",
-    "unit": "ml",
-    "price": 11191.83
-  },
-  {
-    "code": "C.1.2",
-    "name": "Reprise sur stock et mise en ouvre de terre végétale",
-    "unit": "m3",
-    "price": 179.08
-  },
-  {
-    "code": "NP.08.67",
-    "name": "Reseau multitubulaire longitudinal",
-    "unit": "ml",
-    "price": 6113.37
-  },
-  {
-    "code": "E.5.1",
-    "name": "Revêtement bicouche",
-    "unit": "m2",
-    "price": 540.0
-  },
-  {
-    "code": "J.13",
-    "name": "Rideau de palplanches",
-    "unit": "m2",
-    "price": 25200.0
-  },
-  {
-    "code": "OUA.C1",
-    "name": "Rideaux de palplanches",
-    "unit": "m2",
-    "price": 25000.0
-  },
-  {
-    "code": "D.26.1",
-    "name": "Réalisation de barbacane",
-    "unit": "ml",
-    "price": 1700.0
-  },
-  {
-    "code": "G.7.1.1",
-    "name": "Réflecteur simple face sur GBA, DBA",
-    "unit": "U",
-    "price": 1670.0
-  },
-  {
-    "code": "G.7.1.2",
-    "name": "Réflecteur simple face sur glissières et barrières métalliques",
-    "unit": "U",
-    "price": 1400.0
-  },
-  {
-    "code": "B.4",
-    "name": "Scarification de chaussée et compactage",
-    "unit": "m2",
-    "price": 28.16
-  },
-  {
-    "code": "G.5.7",
-    "name": "Semelle de fondation",
-    "unit": "m3",
-    "price": 8020.53
-  },
-  {
-    "code": "H.2.2",
-    "name": "Semelles en béton pour GBA",
-    "unit": "ml",
-    "price": 723.79
-  },
-  {
-    "code": "OUA.NP.05",
-    "name": "Shock Trasmittal pour Voussoir",
-    "unit": "U",
-    "price": 659476.9
-  },
-  {
-    "code": "OUA.B7.5.2",
-    "name": "Souffle : 160mm",
-    "unit": "ml",
-    "price": 10432.46
-  },
-  {
-    "code": "OUA.B7.5.1",
-    "name": "Souffle : 240mm",
-    "unit": "ml",
-    "price": 9389.7
-  },
-  {
-    "code": "OUA.B7.5.3",
-    "name": "Souffle : 80mm",
-    "unit": "ml",
-    "price": 2326.43
-  },
-  {
-    "code": "OUA.B1.5",
-    "name": "Substitution de sol de qualité médiocre sous les semelles et les radiers",
-    "unit": "m3",
-    "price": 377.01
-  },
-  {
-    "code": "I.2.1",
-    "name": "Support HEA 140, longueur de 1,00 m < L < 1,50 m",
-    "unit": "U",
-    "price": 9600.0
-  },
-  {
-    "code": "I.2.2",
-    "name": "Support HEA 160, longueur de 1,50 m < L < 2,00 m",
-    "unit": "U",
-    "price": 14500.0
-  },
-  {
-    "code": "I.2.3",
-    "name": "Support HEA 180, longueur de 2,00 m < L < 2,50 m",
-    "unit": "U",
-    "price": 18220.0
-  },
-  {
-    "code": "I.2.4",
-    "name": "Support HEA 220, longueur de 2,50 m < L < 3,00 m",
-    "unit": "U",
-    "price": 28300.0
-  },
-  {
-    "code": "I.2.5",
-    "name": "Support HEA 260, longueur de 3,00 m < L < 3,50 m",
-    "unit": "U",
-    "price": 41300.0
-  },
-  {
-    "code": "I.2.6",
-    "name": "Support HEA 280, longueur de 3,50 m < L < 4,00 m",
-    "unit": "U",
-    "price": 52500.0
-  },
-  {
-    "code": "K.1.5",
-    "name": "Système central de télésurveillance CCTV",
-    "unit": "U",
-    "price": 1811998.95
-  },
-  {
-    "code": "K.1.6",
-    "name": "Système de détection des accidents et des Incidents (DAI)",
-    "unit": "U",
-    "price": 356431.76
-  },
-  {
-    "code": "A.4.2",
-    "name": "Sécurité active",
+    "poz": "A3.3",
+    "name": "Dossier de récolement",
     "unit": "Ft",
-    "price": 400000000.0
+    "dzd": 33568500.0,
+    "eur": 405000.0,
+    "dzd_eqv": 75000000.0
   },
   {
-    "code": "A.4.1",
-    "name": "Sécurité passive",
-    "unit": "Ft",
-    "price": 200000000.0
-  },
-  {
-    "code": "I.6.1",
-    "name": "Séparateur d'hydrocarbures, débit de traitement de 100 l/s",
-    "unit": "U",
-    "price": 4400000.0
-  },
-  {
-    "code": "I.5.2",
-    "name": "Terre végétale",
-    "unit": "m3",
-    "price": 268.39
-  },
-  {
-    "code": "OUA.NP.09a",
-    "name": "Tirants jusqu’à 45 T compris plaque d'ancrage",
-    "unit": "ml",
-    "price": 4260.0
-  },
-  {
-    "code": "OUA.NP.09b",
-    "name": "Tirants jusqu’à 75 T compris plaque d'ancrage",
-    "unit": "ml",
-    "price": 4310.0
-  },
-  {
-    "code": "C.10.1",
-    "name": "Transport de matériaux sur une distance inférieure à 30 kilomètres",
-    "unit": "M3 x KM",
-    "price": 12.5
-  },
-  {
-    "code": "C.10.2",
-    "name": "Transport de matériaux sur une distance supérieure à 30 kilomètres",
-    "unit": "M3 x KM",
-    "price": 11.0
-  },
-  {
-    "code": "NP.08.68",
-    "name": "Traversée de chaussée",
-    "unit": "ml",
-    "price": 6792.85
-  },
-  {
-    "code": "OUA.C4.3",
-    "name": "Treillis soudées",
-    "unit": "Kg",
-    "price": 71.85
-  },
-  {
-    "code": "J.2.2",
-    "name": "Treillis soudés",
-    "unit": "Kg",
-    "price": 71.85
-  },
-  {
-    "code": "OUA.B6.1.2",
-    "name": "Treillis soudés 150X150 ?10",
-    "unit": "Tonne",
-    "price": 69026.52
-  },
-  {
-    "code": "D.17.1",
-    "name": "Tuyau circulaire en PEHD d'un diamètre de 75 mm",
-    "unit": "ml",
-    "price": 1236.0
-  },
-  {
-    "code": "D.17.2",
-    "name": "Tuyau circulaire en PEHD d'un diamètre de 90 mm",
-    "unit": "ml",
-    "price": 1500.0
-  },
-  {
-    "code": "TU.E3.2.2",
-    "name": "type B17",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.2.5",
-    "name": "type B3a",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.2.6",
-    "name": "type B3b",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.2.3",
-    "name": "type B9a",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.2.4",
-    "name": "type B9b",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.3.1",
-    "name": "type signal  C30a , C30b",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.E3.3.6",
-    "name": "type signal  CE22",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.E3.3.3",
-    "name": "type signal  CE2a",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.R3.37",
-    "name": "type signal  CE8",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.E3.3.2",
-    "name": "type signal  Dp2a , Dp2b",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.E3.3.5",
-    "name": "type signal  M9",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "TU.E3.2.1",
-    "name": "type signal B14",
-    "unit": "U",
-    "price": 9998.21
-  },
-  {
-    "code": "TU.E3.3.4",
-    "name": "type signal CE29",
-    "unit": "U",
-    "price": 2589.45
-  },
-  {
-    "code": "D.22.3",
-    "name": "Têtes simples, murs en aile pour collecteur d'un diamètre de 1000  mm",
-    "unit": "U",
-    "price": 76992.73
-  },
-  {
-    "code": "D.22.4",
-    "name": "Têtes simples, murs en aile pour collecteur d'un diamètre de 1200  mm",
-    "unit": "U",
-    "price": 90558.06
-  },
-  {
-    "code": "D.22.5",
-    "name": "Têtes simples, murs en aile pour collecteur d'un diamètre de 1500 mm",
-    "unit": "U",
-    "price": 125386.97
-  },
-  {
-    "code": "D.22.1",
-    "name": "Têtes simples, murs en aile pour collecteur d'un diamètre de 600 mm",
-    "unit": "U",
-    "price": 60925.34
-  },
-  {
-    "code": "D.22.2",
-    "name": "Têtes simples, murs en aile pour collecteur d'un diamètre de 800 mm",
-    "unit": "U",
-    "price": 68921.05
-  },
-  {
-    "code": "I.7.2.1",
-    "name": "Vanne de dérivation en bastaings pour fossé bétonné",
-    "unit": "U",
-    "price": 282000.0
-  },
-  {
-    "code": "D.1.4",
-    "name": "Végétalisation de fossés",
-    "unit": "ml",
-    "price": 874.94
-  },
-  {
-    "code": "G.7.3",
-    "name": "Écran anti-éblouissement",
-    "unit": "U",
-    "price": 21300.0
-  },
-  {
-    "code": "J.4.1",
-    "name": "Éperons et épis drainants",
-    "unit": "m3",
-    "price": 1870.0
-  },
-  {
-    "code": "OUA.A6",
-    "name": "Épreuve générale de l'ouvrage",
-    "unit": "Ft",
-    "price": 19218104.53
-  },
-  {
-    "code": "OUA.B4.2",
-    "name": "Étaiements",
-    "unit": "m2",
-    "price": 2177.0
-  },
-  {
-    "code": "A.3.4",
+    "poz": "A3.4",
     "name": "Étude des méthodes",
     "unit": "Ft",
-    "price": 7500069.87
+    "dzd": 7500069.87,
+    "eur": 73313.1,
+    "dzd_eqv": 15000000.0
   },
   {
-    "code": "NP.11.19",
+    "poz": "A3.5",
+    "name": "Reconnaissances géotechniques, géologiques et hydrogéologiques",
+    "unit": "Ft",
+    "dzd": 40209555.68,
+    "eur": 388958.4,
+    "dzd_eqv": 80000000.0
+  },
+  {
+    "poz": "A4.1",
+    "name": "Sécurité passive",
+    "unit": "Ft",
+    "dzd": 200000000.0,
+    "eur": 0.0,
+    "dzd_eqv": 200000000.0
+  },
+  {
+    "poz": "A4.2",
+    "name": "Sécurité active",
+    "unit": "Ft",
+    "dzd": 400000000.0,
+    "eur": 0.0,
+    "dzd_eqv": 400000000.0
+  },
+  {
+    "poz": "A5",
+    "name": "Panneau d'identification de l'opération de surface de 6,00 m2",
+    "unit": "Unité",
+    "dzd": 1775000.0,
+    "eur": 0.0,
+    "dzd_eqv": 1775000.0
+  },
+  {
+    "poz": "B1.1",
+    "name": "Débroussaillage, évacuation de blocs rocheux et nettoyage demprise",
+    "unit": "Ha",
+    "dzd": 619820.41,
+    "eur": 2543.3,
+    "dzd_eqv": 880000.0
+  },
+  {
+    "poz": "B1.2",
+    "name": "Abattage, arrachage et dessouchage des arbres singuliers et mise en stock",
+    "unit": "U",
+    "dzd": 1600.0,
+    "eur": 0.0,
+    "dzd_eqv": 1600.0
+  },
+  {
+    "poz": "B1.3",
+    "name": "Dépose soignée des structures métalliques ou en bois",
+    "unit": "Tonne",
+    "dzd": 944.25,
+    "eur": 2.5,
+    "dzd_eqv": 1200.0
+  },
+  {
+    "poz": "B2.1",
+    "name": "Démolition douvrages divers",
+    "unit": "m3",
+    "dzd": 1335.05,
+    "eur": 6.5,
+    "dzd_eqv": 2000.0
+  },
+  {
+    "poz": "B2.2",
+    "name": "Démolition douvrages en béton armé",
+    "unit": "m3",
+    "dzd": 1620.22,
+    "eur": 8.6,
+    "dzd_eqv": 2500.0
+  },
+  {
+    "poz": "B2.3",
+    "name": "Démolition de chaussées, trottoirs et accotements revêtus",
+    "unit": "m3",
+    "dzd": 207.7,
+    "eur": 1.0,
+    "dzd_eqv": 310.0
+  },
+  {
+    "poz": "B3.1",
+    "name": "Rabotage pour une épaisseur inférieure ou égale à 100 mm",
+    "unit": "m2",
+    "dzd": 88.85,
+    "eur": 0.5,
+    "dzd_eqv": 140.0
+  },
+  {
+    "poz": "B3.2",
+    "name": "Rabotage pour une épaisseur entre 100 et 200 mm",
+    "unit": "m2",
+    "dzd": 98.62,
+    "eur": 0.6,
+    "dzd_eqv": 160.0
+  },
+  {
+    "poz": "B4",
+    "name": "Scarification de chaussée et compactage",
+    "unit": "m2",
+    "dzd": 28.16,
+    "eur": 0.8,
+    "dzd_eqv": 110.0
+  },
+  {
+    "poz": "C1.1",
+    "name": "Décapage de terre végétale",
+    "unit": "m3",
+    "dzd": 128.62,
+    "eur": 0.6,
+    "dzd_eqv": 190.0
+  },
+  {
+    "poz": "C1.2",
+    "name": "Reprise sur stock et mise en ouvre de terre végétale",
+    "unit": "m3",
+    "dzd": 179.08,
+    "eur": 0.4,
+    "dzd_eqv": 220.0
+  },
+  {
+    "poz": "C2.2",
+    "name": "Purges",
+    "unit": "m3",
+    "dzd": 2200.0,
+    "eur": 0.0,
+    "dzd_eqv": 2200.0
+  },
+  {
+    "poz": "C3.1",
+    "name": "Déblai meuble mis en remblai",
+    "unit": "m3",
+    "dzd": 257.24,
+    "eur": 1.2,
+    "dzd_eqv": 380.0
+  },
+  {
+    "poz": "C3.2",
+    "name": "Déblai semi-dur mis en remblai",
+    "unit": "m3",
+    "dzd": 386.32,
+    "eur": 1.6,
+    "dzd_eqv": 550.0
+  },
+  {
+    "poz": "C3.3",
+    "name": "Déblai rocheux dur mis en remblai",
+    "unit": "m3",
+    "dzd": 1308.96,
+    "eur": 4.8,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "C4.1",
+    "name": "Déblai meuble mis en dépôt",
+    "unit": "m3",
+    "dzd": 148.16,
+    "eur": 0.8,
+    "dzd_eqv": 230.0
+  },
+  {
+    "poz": "C4.2",
+    "name": "Déblai semi-dur mis en dépôt",
+    "unit": "m3",
+    "dzd": 307.7,
+    "eur": 1.0,
+    "dzd_eqv": 410.0
+  },
+  {
+    "poz": "C4.3",
+    "name": "Déblai rocheux dur mis en dépôt",
+    "unit": "m3",
+    "dzd": 893.1,
+    "eur": 3.0,
+    "dzd_eqv": 1200.0
+  },
+  {
+    "poz": "C5.1",
+    "name": "Remblai en provenance d'emprunt",
+    "unit": "m3",
+    "dzd": 555.63,
+    "eur": 1.9,
+    "dzd_eqv": 750.0
+  },
+  {
+    "poz": "C6.1",
+    "name": "Assise drainante",
+    "unit": "m3",
+    "dzd": 1166.55,
+    "eur": 1.5,
+    "dzd_eqv": 1320.0
+  },
+  {
+    "poz": "C7.1",
+    "name": "Géotextile de renforcement",
+    "unit": "m2",
+    "dzd": 290.8,
+    "eur": 4.0,
+    "dzd_eqv": 700.0
+  },
+  {
+    "poz": "C7.2",
+    "name": "Géotextile anti-contimant",
+    "unit": "m2",
+    "dzd": 258.27,
+    "eur": 5.1,
+    "dzd_eqv": 779.9999999999999
+  },
+  {
+    "poz": "C7.3",
+    "name": "Géogrille",
+    "unit": "m2",
+    "dzd": 418.04,
+    "eur": 5.2,
+    "dzd_eqv": 950.0
+  },
+  {
+    "poz": "C8.1",
+    "name": "Arrondi de crête de talus en déblai",
+    "unit": "ml",
+    "dzd": 317.01,
+    "eur": 1.3,
+    "dzd_eqv": 450.0
+  },
+  {
+    "poz": "C9.1",
+    "name": "Couche de forme, matériaux fournis par lEntreprise",
+    "unit": "m3",
+    "dzd": 1346.55,
+    "eur": 1.5,
+    "dzd_eqv": 1500.0
+  },
+  {
+    "poz": "C10.1",
+    "name": "Transport de matériaux sur une distance inférieure à 30 kilomètres",
+    "unit": "M3 x KM",
+    "dzd": 12.5,
+    "eur": 0.0,
+    "dzd_eqv": 12.5
+  },
+  {
+    "poz": "C10.2",
+    "name": "Transport de matériaux sur une distance supérieure à 30 kilomètres",
+    "unit": "M3 x KM",
+    "dzd": 11.0,
+    "eur": 0.0,
+    "dzd_eqv": 11.0
+  },
+  {
+    "poz": "D1.1",
+    "name": "Fossé trapézoïdale non revêtu de type A",
+    "unit": "ml",
+    "dzd": 495.86,
+    "eur": 1.8,
+    "dzd_eqv": 680.0
+  },
+  {
+    "poz": "D1.2",
+    "name": "Fossé trapézoïdale non revêtu de type B",
+    "unit": "ml",
+    "dzd": 594.94,
+    "eur": 2.2,
+    "dzd_eqv": 820.0
+  },
+  {
+    "poz": "D1.3",
+    "name": "Fossé trapézoïdale non revêtu de type C",
+    "unit": "ml",
+    "dzd": 897.18,
+    "eur": 3.4,
+    "dzd_eqv": 1245.0
+  },
+  {
+    "poz": "D1.4",
+    "name": "Végétalisation de fossés",
+    "unit": "ml",
+    "dzd": 874.94,
+    "eur": 2.2,
+    "dzd_eqv": 1100.0
+  },
+  {
+    "poz": "D2.1",
+    "name": "Bétonnage de fossé de type A",
+    "unit": "ml",
+    "dzd": 4448.37,
+    "eur": 18.1,
+    "dzd_eqv": 6300.0
+  },
+  {
+    "poz": "D2.2",
+    "name": "Bétonnage de fossé de type B",
+    "unit": "ml",
+    "dzd": 5662.5,
+    "eur": 25.0,
+    "dzd_eqv": 8220.0
+  },
+  {
+    "poz": "D2.3",
+    "name": "Bétonnage de fossé de type C",
+    "unit": "ml",
+    "dzd": 6316.17,
+    "eur": 32.1,
+    "dzd_eqv": 9600.0
+  },
+  {
+    "poz": "D3.1",
+    "name": "Cunettes triangulaires dissymétriques étanches végétalisées",
+    "unit": "ml",
+    "dzd": 3402.4,
+    "eur": 12.0,
+    "dzd_eqv": 4630.0
+  },
+  {
+    "poz": "D3.2",
+    "name": "Cunettes triangulaires dissymétriques en béton extrudé",
+    "unit": "ml",
+    "dzd": 4304.81,
+    "eur": 15.3,
+    "dzd_eqv": 5870.0
+  },
+  {
+    "poz": "D3.3",
+    "name": "Cunettes triangulaires symétriques en béton extrudé",
+    "unit": "ml",
+    "dzd": 4829.18,
+    "eur": 13.4,
+    "dzd_eqv": 6200.0
+  },
+  {
+    "poz": "D4.1",
+    "name": "Descentes deau en escalier de type A",
+    "unit": "ml",
+    "dzd": 2912.86,
+    "eur": 11.8,
+    "dzd_eqv": 4120.0
+  },
+  {
+    "poz": "D4.2",
+    "name": "Descentes deau en escalier de type B",
+    "unit": "ml",
+    "dzd": 3357.57,
+    "eur": 14.1,
+    "dzd_eqv": 4800.0
+  },
+  {
+    "poz": "D4.3",
+    "name": "Descentes deau en escalier de type C",
+    "unit": "ml",
+    "dzd": 3634.81,
+    "eur": 15.3,
+    "dzd_eqv": 5200.0
+  },
+  {
+    "poz": "D4.4",
+    "name": "Descentes deau en escalier de type D",
+    "unit": "ml",
+    "dzd": 4119.98,
+    "eur": 17.4,
+    "dzd_eqv": 5899.999999999999
+  },
+  {
+    "poz": "D5.1",
+    "name": "Descentes deau en tuile de type A",
+    "unit": "ml",
+    "dzd": 2200.0,
+    "eur": 0.0,
+    "dzd_eqv": 2200.0
+  },
+  {
+    "poz": "D5.2",
+    "name": "Descentes deau en tuile de type B",
+    "unit": "ml",
+    "dzd": 3520.0,
+    "eur": 0.0,
+    "dzd_eqv": 3520.0
+  },
+  {
+    "poz": "D5.3",
+    "name": "Descentes deau en tuile de type C",
+    "unit": "ml",
+    "dzd": 4200.0,
+    "eur": 0.0,
+    "dzd_eqv": 4200.0
+  },
+  {
+    "poz": "D6.1",
+    "name": "Caniveau en U en béton extrudé de 0,30 x0,40",
+    "unit": "ml",
+    "dzd": 4800.0,
+    "eur": 0.0,
+    "dzd_eqv": 4800.0
+  },
+  {
+    "poz": "D6.2",
+    "name": "Caniveau en U en béton extrudé de 0,40 x 0,50",
+    "unit": "ml",
+    "dzd": 5800.0,
+    "eur": 0.0,
+    "dzd_eqv": 5800.0
+  },
+  {
+    "poz": "D6.3",
+    "name": "Caniveau en U en béton extrudé de 0,45 x 0,55",
+    "unit": "ml",
+    "dzd": 6300.0,
+    "eur": 0.0,
+    "dzd_eqv": 6300.0
+  },
+  {
+    "poz": "D7.1",
+    "name": "Caniveau à fente en béton extrudé diamètre 300 mm",
+    "unit": "ml",
+    "dzd": 22200.0,
+    "eur": 0.0,
+    "dzd_eqv": 22200.0
+  },
+  {
+    "poz": "D7.2",
+    "name": "Caniveau à fente en béton extrudé diamètre 400 mm",
+    "unit": "ml",
+    "dzd": 26600.0,
+    "eur": 0.0,
+    "dzd_eqv": 26600.0
+  },
+  {
+    "poz": "D7.3",
+    "name": "Caniveau à fente en béton extrudé diamètre 500 mm",
+    "unit": "ml",
+    "dzd": 29300.0,
+    "eur": 0.0,
+    "dzd_eqv": 29300.0
+  },
+  {
+    "poz": "D7.4",
+    "name": "Renforcement des caniveaux à fente sous circulation lourde",
+    "unit": "ml",
+    "dzd": 11191.83,
+    "eur": 7.9,
+    "dzd_eqv": 12000.0
+  },
+  {
+    "poz": "D8.1",
+    "name": "Demi-buse dun diamètre de 300 mm",
+    "unit": "ml",
+    "dzd": 4400.0,
+    "eur": 0.0,
+    "dzd_eqv": 4400.0
+  },
+  {
+    "poz": "D8.2",
+    "name": "Demi-buse dun diamètre de 400 mm",
+    "unit": "ml",
+    "dzd": 5700.0,
+    "eur": 0.0,
+    "dzd_eqv": 5700.0
+  },
+  {
+    "poz": "D8.3",
+    "name": "Demi-buse dun diamètre de 500 mm",
+    "unit": "ml",
+    "dzd": 7800.0,
+    "eur": 0.0,
+    "dzd_eqv": 7800.0
+  },
+  {
+    "poz": "D9.1",
+    "name": "Déblai pour tranchées de profondeur entre 0 et 2 m",
+    "unit": "m3",
+    "dzd": 217.93,
+    "eur": 0.9,
+    "dzd_eqv": 310.0
+  },
+  {
+    "poz": "D9.2",
+    "name": "Déblai pour tranchées de profondeur entre 2 à 4 m",
+    "unit": "m3",
+    "dzd": 277.24,
+    "eur": 1.2,
+    "dzd_eqv": 400.0
+  },
+  {
+    "poz": "D9.3",
+    "name": "Déblai pour tranchées de profondeur entre 4 et 6 m",
+    "unit": "m3",
+    "dzd": 326.55,
+    "eur": 1.5,
+    "dzd_eqv": 480.0
+  },
+  {
+    "poz": "D9.4",
+    "name": "Plus-value pour terrain rocheux",
+    "unit": "m3",
+    "dzd": 1500.0,
+    "eur": 0.0,
+    "dzd_eqv": 1500.0
+  },
+  {
+    "poz": "D10.1",
+    "name": "Lit de pose en sable",
+    "unit": "m3",
+    "dzd": 1455.51,
+    "eur": 6.3,
+    "dzd_eqv": 2100.0
+  },
+  {
+    "poz": "D10.2",
+    "name": "Lit de pose en béton",
+    "unit": "m3",
+    "dzd": 5962.17,
+    "eur": 12.1,
+    "dzd_eqv": 7200.0
+  },
+  {
+    "poz": "D11.1",
+    "name": "Enrobage des tuyaux en grave naturelle",
+    "unit": "m3",
+    "dzd": 1437.35,
+    "eur": 5.5,
+    "dzd_eqv": 2000.0
+  },
+  {
+    "poz": "D11.2",
+    "name": "Enrobage des tuyaux en béton",
+    "unit": "m3",
+    "dzd": 5593.89,
+    "eur": 15.7,
+    "dzd_eqv": 7200.0
+  },
+  {
+    "poz": "D11.3",
+    "name": "Enrobage des tuyaux en matériaux drainants pour tuyaux perforés",
+    "unit": "m3",
+    "dzd": 1739.65,
+    "eur": 4.5,
+    "dzd_eqv": 2200.0
+  },
+  {
+    "poz": "D12.1",
+    "name": "Diamètre de 400 mm",
+    "unit": "ml",
+    "dzd": 7769.31,
+    "eur": 0.3,
+    "dzd_eqv": 7800.0
+  },
+  {
+    "poz": "D12.2",
+    "name": "Diamètre de 600 mm",
+    "unit": "ml",
+    "dzd": 9369.31,
+    "eur": 0.3,
+    "dzd_eqv": 9400.0
+  },
+  {
+    "poz": "D13.1",
+    "name": "Diamètre de 800 mm",
+    "unit": "ml",
+    "dzd": 15498.73,
+    "eur": 4.9,
+    "dzd_eqv": 16000.0
+  },
+  {
+    "poz": "D13.2",
+    "name": "Diamètre de 1000 mm",
+    "unit": "ml",
+    "dzd": 21631.72,
+    "eur": 3.6,
+    "dzd_eqv": 22000.0
+  },
+  {
+    "poz": "D13.3",
+    "name": "Diamètre de 1200 mm",
+    "unit": "ml",
+    "dzd": 36375.97,
+    "eur": 6.1,
+    "dzd_eqv": 37000.0
+  },
+  {
+    "poz": "D13.4",
+    "name": "Diamètre de 1500 mm",
+    "unit": "ml",
+    "dzd": 50775.97,
+    "eur": 6.1,
+    "dzd_eqv": 51400.0
+  },
+  {
+    "poz": "D14.1",
+    "name": "Collecteur drainant dun diamètre de 150 mm",
+    "unit": "ml",
+    "dzd": 2700.0,
+    "eur": 0.0,
+    "dzd_eqv": 2700.0
+  },
+  {
+    "poz": "D17.1",
+    "name": "Tuyau circulaire en PEHD dun diamètre de 75 mm",
+    "unit": "ml",
+    "dzd": 1236.0,
+    "eur": 0.0,
+    "dzd_eqv": 1236.0
+  },
+  {
+    "poz": "D17.2",
+    "name": "Tuyau circulaire en PEHD dun diamètre de 90 mm",
+    "unit": "ml",
+    "dzd": 1500.0,
+    "eur": 0.0,
+    "dzd_eqv": 1500.0
+  },
+  {
+    "poz": "D18.1",
+    "name": "Chambre de tirage K1C",
+    "unit": "U",
+    "dzd": 112000.0,
+    "eur": 0.0,
+    "dzd_eqv": 112000.0
+  },
+  {
+    "poz": "D18.2",
+    "name": "Chambre de tirage K2C",
+    "unit": "U",
+    "dzd": 125000.0,
+    "eur": 0.0,
+    "dzd_eqv": 125000.0
+  },
+  {
+    "poz": "D19.1",
+    "name": "Profondeur inférieure à 2 mètres",
+    "unit": "U",
+    "dzd": 120000.0,
+    "eur": 0.0,
+    "dzd_eqv": 120000.0
+  },
+  {
+    "poz": "D20.1",
+    "name": "Puisard avec dimensions inférieures à 1000x1000x3500",
+    "unit": "U",
+    "dzd": 150000.0,
+    "eur": 0.0,
+    "dzd_eqv": 150000.0
+  },
+  {
+    "poz": "D20.2",
+    "name": "Puisard avec dimensions inférieures à 1500x1300x3500",
+    "unit": "U",
+    "dzd": 174000.0,
+    "eur": 0.0,
+    "dzd_eqv": 174000.0
+  },
+  {
+    "poz": "D20.3",
+    "name": "Puisard avec dimensions inférieures à 1500x1500x3500",
+    "unit": "U",
+    "dzd": 188000.0,
+    "eur": 0.0,
+    "dzd_eqv": 188000.0
+  },
+  {
+    "poz": "D20.4",
+    "name": "Puisard avec dimensions inférieures à 1500x1800x3500",
+    "unit": "U",
+    "dzd": 215000.0,
+    "eur": 0.0,
+    "dzd_eqv": 215000.0
+  },
+  {
+    "poz": "D20.5",
+    "name": "Puisard avec dimensions inférieures à 1500x2000x3500",
+    "unit": "U",
+    "dzd": 220000.0,
+    "eur": 0.0,
+    "dzd_eqv": 220000.0
+  },
+  {
+    "poz": "D20.6",
+    "name": "Puisard avec dimensions inférieures à 1500x2500x3500",
+    "unit": "U",
+    "dzd": 260000.0,
+    "eur": 0.0,
+    "dzd_eqv": 260000.0
+  },
+  {
+    "poz": "D21.1",
+    "name": "Grille davaloir carré de 700 x 700 mm, classe de résistance de 400 kN",
+    "unit": "U",
+    "dzd": 32000.0,
+    "eur": 0.0,
+    "dzd_eqv": 32000.0
+  },
+  {
+    "poz": "D21.2",
+    "name": "Grille davaloir rectangulaire de 250 x 400 mm, classe de résistance de 400 kN",
+    "unit": "U",
+    "dzd": 26826.09,
+    "eur": 1.7,
+    "dzd_eqv": 27000.0
+  },
+  {
+    "poz": "D21.3",
+    "name": "Caillebotis de 1 x 1 m, classe de résistance de 125 kN",
+    "unit": "U",
+    "dzd": 5400.0,
+    "eur": 0.0,
+    "dzd_eqv": 5400.0
+  },
+  {
+    "poz": "D21.4",
+    "name": "Caillebotis de 1 x 2 m, classe de résistance de 125 kN",
+    "unit": "U",
+    "dzd": 9200.0,
+    "eur": 0.0,
+    "dzd_eqv": 9200.0
+  },
+  {
+    "poz": "D22.1",
+    "name": "Têtes simples, murs en aile pour collecteur dun diamètre de 600 mm",
+    "unit": "U",
+    "dzd": 60925.34,
+    "eur": 154.2,
+    "dzd_eqv": 76700.0
+  },
+  {
+    "poz": "D22.2",
+    "name": "Têtes simples, murs en aile pour collecteur dun diamètre de 800 mm",
+    "unit": "U",
+    "dzd": 68921.05,
+    "eur": 186.5,
+    "dzd_eqv": 88000.0
+  },
+  {
+    "poz": "D22.3",
+    "name": "Têtes simples, murs en aile pour collecteur dun diamètre de 1000  mm",
+    "unit": "U",
+    "dzd": 76992.73,
+    "eur": 224.9,
+    "dzd_eqv": 100000.0
+  },
+  {
+    "poz": "D22.4",
+    "name": "Têtes simples, murs en aile pour collecteur dun diamètre de 1200  mm",
+    "unit": "U",
+    "dzd": 90558.06,
+    "eur": 287.8,
+    "dzd_eqv": 120000.0
+  },
+  {
+    "poz": "D22.5",
+    "name": "Têtes simples, murs en aile pour collecteur dun diamètre de 1500 mm",
+    "unit": "U",
+    "dzd": 125386.97,
+    "eur": 436.1,
+    "dzd_eqv": 170000.0
+  },
+  {
+    "poz": "D23.1",
+    "name": "Bourrelet en enrobé",
+    "unit": "ml",
+    "dzd": 3000.0,
+    "eur": 0.0,
+    "dzd_eqv": 3000.0
+  },
+  {
+    "poz": "D24.1",
+    "name": "Enrochement de type A (600 mm < blocomètrie < 1200 mm)",
+    "unit": "m3",
+    "dzd": 1879.3,
+    "eur": 9.0,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "D24.2",
+    "name": "Enrochement de type B (400 mm < blocomètrie < 800 mm)",
+    "unit": "m3",
+    "dzd": 1879.3,
+    "eur": 9.0,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "D24.3",
+    "name": "Enrochement de type C (200 mm < blocomètrie < 400 mm)",
+    "unit": "m3",
+    "dzd": 1879.3,
+    "eur": 9.0,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "D25.1",
+    "name": "Enrochements liés de type A (600 mm< Blocomètre < 1200 mm)",
+    "unit": "m3",
+    "dzd": 2042.98,
+    "eur": 7.4,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "D26.1",
+    "name": "Réalisation de barbacane",
+    "unit": "ml",
+    "dzd": 1700.0,
+    "eur": 0.0,
+    "dzd_eqv": 1700.0
+  },
+  {
+    "poz": "D27.1",
+    "name": "Déblais pour aménagement divers",
+    "unit": "m3",
+    "dzd": 178.16,
+    "eur": 0.8,
+    "dzd_eqv": 260.0
+  },
+  {
+    "poz": "D27.2",
+    "name": "Béton pour ouvrages divers",
+    "unit": "m3",
+    "dzd": 9553.28,
+    "eur": 46.4,
+    "dzd_eqv": 14300.0
+  },
+  {
+    "poz": "D27.3",
+    "name": "Coffrage pour ouvrages divers en béton",
+    "unit": "m2",
+    "dzd": 920.22,
+    "eur": 8.6,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "D27.4",
+    "name": "Ferraillage pour ouvrages divers en béton",
+    "unit": "Kg",
+    "dzd": 65.08,
+    "eur": 0.4,
+    "dzd_eqv": 106.0
+  },
+  {
+    "poz": "E1.1",
+    "name": "Grave non traitée (GNT A 0/31.5)",
+    "unit": "m3",
+    "dzd": 1922.64,
+    "eur": 3.2,
+    "dzd_eqv": 2250.0
+  },
+  {
+    "poz": "E2.1",
+    "name": "Grave bitume GB 0/20",
+    "unit": "Tonne",
+    "dzd": 3390.32,
+    "eur": 21.6,
+    "dzd_eqv": 5600.0
+  },
+  {
+    "poz": "E2.2",
+    "name": "Enrobés à module élevé (EME 2)",
+    "unit": "Tonne",
+    "dzd": 4782.15,
+    "eur": 29.5,
+    "dzd_eqv": 7800.0
+  },
+  {
+    "poz": "E3.1",
+    "name": "Couche de roulement en béton bitumineux semi-grenu, BBSG 0/14",
+    "unit": "Tonne",
+    "dzd": 4337.9,
+    "eur": 27.0,
+    "dzd_eqv": 7100.0
+  },
+  {
+    "poz": "E3.2",
+    "name": "Couche de roulement en béton bitumineux module élevé (BBM A 0/10)",
+    "unit": "Tonne",
+    "dzd": 4650.19,
+    "eur": 34.7,
+    "dzd_eqv": 8200.0
+  },
+  {
+    "poz": "E3.3",
+    "name": "Couche de roulement en béton bitumineux module élevé (BBME 0/10)",
+    "unit": "Tonne",
+    "dzd": 4670.65,
+    "eur": 34.5,
+    "dzd_eqv": 8200.0
+  },
+  {
+    "poz": "E4.1",
+    "name": "Couche dimprégnation",
+    "unit": "m2",
+    "dzd": 95.0,
+    "eur": 0.0,
+    "dzd_eqv": 95.0
+  },
+  {
+    "poz": "E4.2",
+    "name": "Couche daccrochage",
+    "unit": "m2",
+    "dzd": 70.0,
+    "eur": 0.0,
+    "dzd_eqv": 70.0
+  },
+  {
+    "poz": "E5.1",
+    "name": "Revêtement bicouche",
+    "unit": "m2",
+    "dzd": 540.0,
+    "eur": 0.0,
+    "dzd_eqv": 540.0
+  },
+  {
+    "poz": "E6.1",
+    "name": "Bordure haute normalisée (type A2) en béton préfabriqué",
+    "unit": "ml",
+    "dzd": 2000.0,
+    "eur": 0.0,
+    "dzd_eqv": 2000.0
+  },
+  {
+    "poz": "F1.1",
+    "name": "Marquage par hachures (zébras)",
+    "unit": "m2",
+    "dzd": 680.0,
+    "eur": 0.0,
+    "dzd_eqv": 680.0
+  },
+  {
+    "poz": "F1.2",
+    "name": "Bande de largeur de 100 mm",
+    "unit": "ml",
+    "dzd": 70.0,
+    "eur": 0.0,
+    "dzd_eqv": 70.0
+  },
+  {
+    "poz": "F1.3",
+    "name": "Bande de largeur de 150 mm",
+    "unit": "ml",
+    "dzd": 145.0,
+    "eur": 0.0,
+    "dzd_eqv": 145.0
+  },
+  {
+    "poz": "F1.4",
+    "name": "Bande de largeur de 225 mm",
+    "unit": "ml",
+    "dzd": 200.0,
+    "eur": 0.0,
+    "dzd_eqv": 200.0
+  },
+  {
+    "poz": "F1.5",
+    "name": "Bande de largeur de 375 mm",
+    "unit": "ml",
+    "dzd": 340.0,
+    "eur": 0.0,
+    "dzd_eqv": 340.0
+  },
+  {
+    "poz": "F1.6",
+    "name": "Bande de largeur de 500 mm",
+    "unit": "ml",
+    "dzd": 420.0,
+    "eur": 0.0,
+    "dzd_eqv": 420.0
+  },
+  {
+    "poz": "F1.7",
+    "name": "Marquage de flèches de rabattement",
+    "unit": "U",
+    "dzd": 600.0,
+    "eur": 0.0,
+    "dzd_eqv": 600.0
+  },
+  {
+    "poz": "F1.8",
+    "name": "Marquage de flèche unidirectionnelle",
+    "unit": "U",
+    "dzd": 800.0,
+    "eur": 0.0,
+    "dzd_eqv": 800.0
+  },
+  {
+    "poz": "F1.9",
+    "name": "Marquage de flèche bidirectionnelle",
+    "unit": "U",
+    "dzd": 820.0,
+    "eur": 0.0,
+    "dzd_eqv": 820.0
+  },
+  {
+    "poz": "F2.1",
+    "name": "Bande préfabriquée de largeur de 150 mm",
+    "unit": "ml",
+    "dzd": 800.0,
+    "eur": 0.0,
+    "dzd_eqv": 800.0
+  },
+  {
+    "poz": "G1.1",
+    "name": "Panneau triangulaire de très grande gamme (côté nominal 1500 mm)",
+    "unit": "U",
+    "dzd": 52000.0,
+    "eur": 0.0,
+    "dzd_eqv": 52000.0
+  },
+  {
+    "poz": "G1.2",
+    "name": "Panneau triangulaire de gamme normale (côté nominal 1000 mm)",
+    "unit": "U",
+    "dzd": 42400.0,
+    "eur": 0.0,
+    "dzd_eqv": 42400.0
+  },
+  {
+    "poz": "G1.3",
+    "name": "Panneau circulaire de très grande gamme (diamètre de 1250 mm)",
+    "unit": "U",
+    "dzd": 48600.0,
+    "eur": 0.0,
+    "dzd_eqv": 48600.0
+  },
+  {
+    "poz": "G1.4",
+    "name": "Panneau circulaire de gamme normale (diamètre de 850 mm)",
+    "unit": "U",
+    "dzd": 41500.0,
+    "eur": 0.0,
+    "dzd_eqv": 41500.0
+  },
+  {
+    "poz": "G1.5",
+    "name": "Panneau carré de très grande gamme (côté nominal 1050 mm)",
+    "unit": "U",
+    "dzd": 43000.0,
+    "eur": 0.0,
+    "dzd_eqv": 43000.0
+  },
+  {
+    "poz": "G1.6",
+    "name": "Panneau carré de gamme normale (côté nominal 700 mm)",
+    "unit": "U",
+    "dzd": 38800.0,
+    "eur": 0.0,
+    "dzd_eqv": 38800.0
+  },
+  {
+    "poz": "G1.7",
+    "name": "Panneau octogonal de gamme normale (largeur de 800 mm)",
+    "unit": "U",
+    "dzd": 40700.0,
+    "eur": 0.0,
+    "dzd_eqv": 40700.0
+  },
+  {
+    "poz": "G2.1",
+    "name": "Panonceau de type M",
+    "unit": "m2",
+    "dzd": 42000.0,
+    "eur": 0.0,
+    "dzd_eqv": 42000.0
+  },
+  {
+    "poz": "G2.2",
+    "name": "Panneau de type E",
+    "unit": "m2",
+    "dzd": 57000.0,
+    "eur": 0.0,
+    "dzd_eqv": 57000.0
+  },
+  {
+    "poz": "G3.1",
+    "name": "Panneau de direction de type D",
+    "unit": "m2",
+    "dzd": 64000.0,
+    "eur": 0.0,
+    "dzd_eqv": 64000.0
+  },
+  {
+    "poz": "G4.1",
+    "name": "Balise de type J1",
+    "unit": "U",
+    "dzd": 18000.0,
+    "eur": 0.0,
+    "dzd_eqv": 18000.0
+  },
+  {
+    "poz": "G4.2",
+    "name": "Balise de type J3",
+    "unit": "U",
+    "dzd": 26700.0,
+    "eur": 0.0,
+    "dzd_eqv": 26700.0
+  },
+  {
+    "poz": "G4.3",
+    "name": "Balise de type J4",
+    "unit": "U",
+    "dzd": 64000.0,
+    "eur": 0.0,
+    "dzd_eqv": 64000.0
+  },
+  {
+    "poz": "G4.4",
+    "name": "Balise de type J5",
+    "unit": "U",
+    "dzd": 22500.0,
+    "eur": 0.0,
+    "dzd_eqv": 22500.0
+  },
+  {
+    "poz": "G4.5",
+    "name": "Balise de type J6",
+    "unit": "U",
+    "dzd": 24000.0,
+    "eur": 0.0,
+    "dzd_eqv": 24000.0
+  },
+  {
+    "poz": "G4.6",
+    "name": "Balise de type J14a",
+    "unit": "U",
+    "dzd": 46000.0,
+    "eur": 0.0,
+    "dzd_eqv": 46000.0
+  },
+  {
+    "poz": "G5.1",
+    "name": "Poteaux de moment inertie 25 cm4 < Ix < 50 cm4",
+    "unit": "ml",
+    "dzd": 9776.59,
+    "eur": 0.0,
+    "dzd_eqv": 9776.59
+  },
+  {
+    "poz": "G5.2",
+    "name": "Poteaux de moment inertie 50 cm4 < Ix < 100 cm4",
+    "unit": "ml",
+    "dzd": 13035.47,
+    "eur": 0.0,
+    "dzd_eqv": 13035.47
+  },
+  {
+    "poz": "G5.3",
+    "name": "Poteaux de moment inertie 100 cm4 < Ix < 200 cm4",
+    "unit": "ml",
+    "dzd": 16294.33,
+    "eur": 0.0,
+    "dzd_eqv": 16294.33
+  },
+  {
+    "poz": "G5.4",
+    "name": "Poteaux de moment inertie 400 cm4 < Ix < 800 cm4",
+    "unit": "ml",
+    "dzd": 19553.22,
+    "eur": 0.0,
+    "dzd_eqv": 19553.22
+  },
+  {
+    "poz": "G5.5",
+    "name": "Poteaux de moment inertie 800 cm4 < Ix < 1 600 cm4",
+    "unit": "ml",
+    "dzd": 26070.91,
+    "eur": 0.0,
+    "dzd_eqv": 26070.91
+  },
+  {
+    "poz": "G5.6",
+    "name": "Poteaux de moment inertie 1600 cm4 < Ix < 3 200 cm4",
+    "unit": "ml",
+    "dzd": 32588.67,
+    "eur": 0.0,
+    "dzd_eqv": 32588.67
+  },
+  {
+    "poz": "G5.7",
+    "name": "Semelle de fondation",
+    "unit": "m3",
+    "dzd": 8020.53,
+    "eur": 38.9,
+    "dzd_eqv": 12000.0
+  },
+  {
+    "poz": "G6.1",
+    "name": "Jalonneur sur pied avec un réflecteur",
+    "unit": "U",
+    "dzd": 8450.0,
+    "eur": 0.0,
+    "dzd_eqv": 8450.0
+  },
+  {
+    "poz": "G6.2",
+    "name": "Jalonneur sur pied avec deux réflecteurs",
+    "unit": "U",
+    "dzd": 9380.0,
+    "eur": 0.0,
+    "dzd_eqv": 9380.0
+  },
+  {
+    "poz": "G7.1.1",
+    "name": "Réflecteur simple face sur GBA, DBA",
+    "unit": "U",
+    "dzd": 1670.0,
+    "eur": 0.0,
+    "dzd_eqv": 1670.0
+  },
+  {
+    "poz": "G7.1.2",
+    "name": "Réflecteur simple face sur glissières et barrières métalliques",
+    "unit": "U",
+    "dzd": 1400.0,
+    "eur": 0.0,
+    "dzd_eqv": 1400.0
+  },
+  {
+    "poz": "G7.2",
+    "name": "Plots rétroréfléchissants",
+    "unit": "U",
+    "dzd": 2280.0,
+    "eur": 0.0,
+    "dzd_eqv": 2280.0
+  },
+  {
+    "poz": "G7.3",
+    "name": "Écran anti-éblouissement",
+    "unit": "U",
+    "dzd": 21300.0,
+    "eur": 0.0,
+    "dzd_eqv": 21300.0
+  },
+  {
+    "poz": "H1.1.1",
+    "name": "Glissières de sécurité GS4 - Profil A  L = 2,00 m",
+    "unit": "ml",
+    "dzd": 1238.45,
+    "eur": 48.5,
+    "dzd_eqv": 6200.0
+  },
+  {
+    "poz": "H2.1.1",
+    "name": "Barrière en béton extrudé de type GBA (simple talon)",
+    "unit": "ml",
+    "dzd": 3932.51,
+    "eur": 16.3,
+    "dzd_eqv": 5600.0
+  },
+  {
+    "poz": "H2.1.2",
+    "name": "Barrière en béton extrudé de type DBA (double talon)",
+    "unit": "ml",
+    "dzd": 4586.99,
+    "eur": 18.7,
+    "dzd_eqv": 6500.0
+  },
+  {
+    "poz": "H2.2",
+    "name": "Semelles en béton pour GBA",
+    "unit": "ml",
+    "dzd": 723.79,
+    "eur": 2.7,
+    "dzd_eqv": 1000.0
+  },
+  {
+    "poz": "H3.1",
+    "name": "Extrémité de file GBA sur 20,00 mètres",
+    "unit": "U",
+    "dzd": 5150.55,
+    "eur": 21.5,
+    "dzd_eqv": 7350.0
+  },
+  {
+    "poz": "H3.2",
+    "name": "Extrémité de file GBA sur 1,65 mètre",
+    "unit": "U",
+    "dzd": 6032.27,
+    "eur": 25.1,
+    "dzd_eqv": 8600.0
+  },
+  {
+    "poz": "I1.1",
+    "name": "Fouilles pour fondations",
+    "unit": "m3",
+    "dzd": 178.16,
+    "eur": 0.8,
+    "dzd_eqv": 260.0
+  },
+  {
+    "poz": "I1.2",
+    "name": "Remblaiement des fouilles de fondation",
+    "unit": "m3",
+    "dzd": 822.41,
+    "eur": 3.3,
+    "dzd_eqv": 1160.0
+  },
+  {
+    "poz": "I1.3",
+    "name": "Béton de propreté pour fondations",
+    "unit": "m3",
+    "dzd": 5919.19,
+    "eur": 4.7,
+    "dzd_eqv": 6400.0
+  },
+  {
+    "poz": "I1.4",
+    "name": "Coffrage pour fondations",
+    "unit": "m2",
+    "dzd": 812.29,
+    "eur": 7.7,
+    "dzd_eqv": 1600.0
+  },
+  {
+    "poz": "I1.5",
+    "name": "Coffrage pour longrines",
+    "unit": "m2",
+    "dzd": 1349.88,
+    "eur": 4.4,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "I1.6",
+    "name": "Béton pour fondations et longrines",
+    "unit": "m3",
+    "dzd": 8973.98,
+    "eur": 37.4,
+    "dzd_eqv": 12800.0
+  },
+  {
+    "poz": "I1.7",
+    "name": "Aciers de ferraillage",
+    "unit": "Kg",
+    "dzd": 66.08,
+    "eur": 0.4,
+    "dzd_eqv": 107.0
+  },
+  {
+    "poz": "I2.1",
+    "name": "Support HEA 140, longueur de 1,00 m < L < 1,50 m",
+    "unit": "U",
+    "dzd": 9600.0,
+    "eur": 0.0,
+    "dzd_eqv": 9600.0
+  },
+  {
+    "poz": "I2.2",
+    "name": "Support HEA 160, longueur de 1,50 m < L < 2,00 m",
+    "unit": "U",
+    "dzd": 14500.0,
+    "eur": 0.0,
+    "dzd_eqv": 14500.0
+  },
+  {
+    "poz": "I2.3",
+    "name": "Support HEA 180, longueur de 2,00 m < L < 2,50 m",
+    "unit": "U",
+    "dzd": 18220.0,
+    "eur": 0.0,
+    "dzd_eqv": 18220.0
+  },
+  {
+    "poz": "I2.4",
+    "name": "Support HEA 220, longueur de 2,50 m < L < 3,00 m",
+    "unit": "U",
+    "dzd": 28300.0,
+    "eur": 0.0,
+    "dzd_eqv": 28300.0
+  },
+  {
+    "poz": "I2.5",
+    "name": "Support HEA 260, longueur de 3,00 m < L < 3,50 m",
+    "unit": "U",
+    "dzd": 41300.0,
+    "eur": 0.0,
+    "dzd_eqv": 41300.0
+  },
+  {
+    "poz": "I2.6",
+    "name": "Support HEA 280, longueur de 3,50 m < L < 4,00 m",
+    "unit": "U",
+    "dzd": 52500.0,
+    "eur": 0.0,
+    "dzd_eqv": 52500.0
+  },
+  {
+    "poz": "I3.1",
+    "name": "Panneaux réfléchissants en béton expansé",
+    "unit": "m2",
+    "dzd": 88750.0,
+    "eur": 0.0,
+    "dzd_eqv": 88750.0
+  },
+  {
+    "poz": "I4.1",
+    "name": "Déblais pour bassins",
+    "unit": "m3",
+    "dzd": 168.16,
+    "eur": 0.8,
+    "dzd_eqv": 250.0
+  },
+  {
+    "poz": "I5.1",
+    "name": "Argile compactée",
+    "unit": "m3",
+    "dzd": 474.48,
+    "eur": 2.4,
+    "dzd_eqv": 720.0
+  },
+  {
+    "poz": "I5.2",
+    "name": "Terre végétale",
+    "unit": "m3",
+    "dzd": 268.39,
+    "eur": 0.7,
+    "dzd_eqv": 340.0
+  },
+  {
+    "poz": "I5.3",
+    "name": "Enrochement",
+    "unit": "m3",
+    "dzd": 2205.85,
+    "eur": 10.5,
+    "dzd_eqv": 3280.0
+  },
+  {
+    "poz": "I5.4",
+    "name": "Grave Non traitée (GNT)",
+    "unit": "m3",
+    "dzd": 2179.54,
+    "eur": 0.2,
+    "dzd_eqv": 2200.0
+  },
+  {
+    "poz": "I6.1",
+    "name": "Séparateur dhydrocarbures, débit de traitement de 100 l/s",
+    "unit": "U",
+    "dzd": 4400000.0,
+    "eur": 0.0,
+    "dzd_eqv": 4400000.0
+  },
+  {
+    "poz": "I7.1",
+    "name": "Regard siphoïde, débit de surverse de 250 l/s",
+    "unit": "U",
+    "dzd": 280000.0,
+    "eur": 0.0,
+    "dzd_eqv": 280000.0
+  },
+  {
+    "poz": "I7.2.1",
+    "name": "Vanne de dérivation en bastaings pour fossé bétonné",
+    "unit": "U",
+    "dzd": 282000.0,
+    "eur": 0.0,
+    "dzd_eqv": 282000.0
+  },
+  {
+    "poz": "I8.1",
+    "name": "Clôtures anti-intrusion (barbelé)",
+    "unit": "ml",
+    "dzd": 5934.02,
+    "eur": 2.6,
+    "dzd_eqv": 6200.0
+  },
+  {
+    "poz": "I8.2",
+    "name": "Portail double battant",
+    "unit": "U",
+    "dzd": 250000.0,
+    "eur": 0.0,
+    "dzd_eqv": 250000.0
+  },
+  {
+    "poz": "I9.1",
+    "name": "Plantation darbres",
+    "unit": "m2",
+    "dzd": 1545.17,
+    "eur": 0.0,
+    "dzd_eqv": 1545.17
+  },
+  {
+    "poz": "I9.2",
+    "name": "Plantation de baliveaux",
+    "unit": "m2",
+    "dzd": 1822.86,
+    "eur": 0.0,
+    "dzd_eqv": 1822.86
+  },
+  {
+    "poz": "I9.3",
+    "name": "Plantation despèces darbrisseaux",
+    "unit": "m2",
+    "dzd": 1103.0,
+    "eur": 0.0,
+    "dzd_eqv": 1103.0
+  },
+  {
+    "poz": "I9.4",
+    "name": "Engazonnement",
+    "unit": "m2",
+    "dzd": 637.19,
+    "eur": 0.0,
+    "dzd_eqv": 637.19
+  },
+  {
+    "poz": "I9.5",
+    "name": "Plantation darbustes",
+    "unit": "m2",
+    "dzd": 797.0,
+    "eur": 0.0,
+    "dzd_eqv": 797.0
+  },
+  {
+    "poz": "J1.1",
+    "name": "Mur de soutènement en gabions",
+    "unit": "m3",
+    "dzd": 3034.57,
+    "eur": 24.1,
+    "dzd_eqv": 5500.0
+  },
+  {
+    "poz": "J2.1",
+    "name": "Béton projeté RN 30 (ep=15cm)",
+    "unit": "m3",
+    "dzd": 13478.48,
+    "eur": 122.4,
+    "dzd_eqv": 26000.0
+  },
+  {
+    "poz": "J2.2",
+    "name": "Treillis soudés",
+    "unit": "Kg",
+    "dzd": 71.85,
+    "eur": 0.5,
+    "dzd_eqv": 123.0
+  },
+  {
+    "poz": "J2.3.1",
+    "name": "Clous de 12m",
+    "unit": "U",
+    "dzd": 19236.87,
+    "eur": 23.1,
+    "dzd_eqv": 21600.0
+  },
+  {
+    "poz": "J2.3.2",
+    "name": "Clous de 16m",
+    "unit": "U",
+    "dzd": 25638.93,
+    "eur": 30.9,
+    "dzd_eqv": 28800.0
+  },
+  {
+    "poz": "J2.3.3",
+    "name": "Clous de 20m",
+    "unit": "U",
+    "dzd": 32010.3,
+    "eur": 39.0,
+    "dzd_eqv": 36000.0
+  },
+  {
+    "poz": "J3.1",
+    "name": "Mise en .uvre de merlons",
+    "unit": "m3",
+    "dzd": 217.7,
+    "eur": 1.0,
+    "dzd_eqv": 320.0
+  },
+  {
+    "poz": "J4.1",
+    "name": "Éperons et épis drainants",
+    "unit": "m3",
+    "dzd": 1870.0,
+    "eur": 0.0,
+    "dzd_eqv": 1870.0
+  },
+  {
+    "poz": "J5",
+    "name": "Masque poids pour stabilisation de talus",
+    "unit": "m3",
+    "dzd": 1200.0,
+    "eur": 0.0,
+    "dzd_eqv": 1200.0
+  },
+  {
+    "poz": "J6.1",
+    "name": "Drains subhorizontaux",
+    "unit": "ml",
+    "dzd": 4700.0,
+    "eur": 0.0,
+    "dzd_eqv": 4700.0
+  },
+  {
+    "poz": "J7",
+    "name": "Barbacanes en PVC de diamètre 50 mm",
+    "unit": "ml",
+    "dzd": 980.0,
+    "eur": 0.0,
+    "dzd_eqv": 980.0
+  },
+  {
+    "poz": "J8.1",
+    "name": "Execution d'ancrages passifs d'un diamètre de 32mm",
+    "unit": "ml",
+    "dzd": 470.1,
+    "eur": 13.0,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "J8.2",
+    "name": "Execution d'ancrages passifs d'un diamètre de 28mm",
+    "unit": "ml",
+    "dzd": 531.48,
+    "eur": 12.4,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "J8.3",
+    "name": "Execution d'ancrages passifs d'un diamètre de 25mm",
+    "unit": "ml",
+    "dzd": 664.47,
+    "eur": 11.1,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "J8.4",
+    "name": "Essais d'ancrages passifs",
+    "unit": "U",
+    "dzd": 32400.0,
+    "eur": 0.0,
+    "dzd_eqv": 32400.0
+  },
+  {
+    "poz": "J9",
+    "name": "Géotextile alvéolaire",
+    "unit": "m2",
+    "dzd": 780.0,
+    "eur": 0.0,
+    "dzd_eqv": 780.0
+  },
+  {
+    "poz": "J10",
+    "name": "Grillage boulonné",
+    "unit": "m2",
+    "dzd": 9957.81,
+    "eur": 5.3,
+    "dzd_eqv": 10500.0
+  },
+  {
+    "poz": "J11",
+    "name": "Atalus",
+    "unit": "m2",
+    "dzd": 18500.0,
+    "eur": 0.0,
+    "dzd_eqv": 18500.0
+  },
+  {
+    "poz": "J12.1",
+    "name": "Pour murs d'une hauteur de moins de 15 m",
+    "unit": "m2",
+    "dzd": 13600.0,
+    "eur": 0.0,
+    "dzd_eqv": 13600.0
+  },
+  {
+    "poz": "J12.2",
+    "name": "Pour murs d'une hauteur de plus de 15 m",
+    "unit": "m2",
+    "dzd": 15700.0,
+    "eur": 0.0,
+    "dzd_eqv": 15700.0
+  },
+  {
+    "poz": "J13",
+    "name": "Rideau de palplanches",
+    "unit": "m2",
+    "dzd": 25200.0,
+    "eur": 0.0,
+    "dzd_eqv": 25200.0
+  },
+  {
+    "poz": "J14",
+    "name": "Perrés maçonnés",
+    "unit": "m2",
+    "dzd": 2554.48,
+    "eur": 2.4,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "K1.1",
+    "name": "Caméra de vidéosurveillance",
+    "unit": "U",
+    "dzd": 412003.51,
+    "eur": 36246.3,
+    "dzd_eqv": 4120000.0
+  },
+  {
+    "poz": "K1.2",
+    "name": "Poteau pour caméra",
+    "unit": "U",
+    "dzd": 23504.98,
+    "eur": 2067.4,
+    "dzd_eqv": 235000.0
+  },
+  {
+    "poz": "K1.3",
+    "name": "Conduits pour câblage",
+    "unit": "ml",
+    "dzd": 832.1,
+    "eur": 73.0,
+    "dzd_eqv": 8300.0
+  },
+  {
+    "poz": "K1.4",
+    "name": "Câblage des caméras",
+    "unit": "ml",
+    "dzd": 448.69,
+    "eur": 39.7,
+    "dzd_eqv": 4510.0
+  },
+  {
+    "poz": "K1.5",
+    "name": "Système central de télésurveillance CCTV",
+    "unit": "U",
+    "dzd": 1811998.95,
+    "eur": 159413.5,
+    "dzd_eqv": 18120000.0
+  },
+  {
+    "poz": "K1.6",
+    "name": "Système de détection des accidents et des Incidents (DAI)",
+    "unit": "U",
+    "dzd": 356431.76,
+    "eur": 31168.8,
+    "dzd_eqv": 3545000.0
+  },
+  {
+    "poz": "K2",
+    "name": "Clôture pour le secteur de l'aéroport",
+    "unit": "ml",
+    "dzd": 5200.0,
+    "eur": 0.0,
+    "dzd_eqv": 5200.0
+  },
+  {
+    "poz": "NP.11",
+    "name": "Poste d'observation (compris le PV de sortie du 09/06/2015) / Pistes pour les militaires/ Poste d'observation pour dépôt d’explosif de tunnel",
+    "unit": "U",
+    "dzd": 12200000.0,
+    "eur": 0.0,
+    "dzd_eqv": 12200000.0
+  },
+  {
+    "poz": "NP.18",
+    "name": "Badigeonnage des parements enterés pour LOT ROUTE",
+    "unit": "m²",
+    "dzd": 759.08,
+    "eur": 0.4,
+    "dzd_eqv": 800.0
+  },
+  {
+    "poz": "NP.26",
+    "name": "Géocomposite pour protection talus marnose",
+    "unit": "m²",
+    "dzd": 764.73,
+    "eur": 26.64,
+    "dzd_eqv": 3490.002
+  },
+  {
+    "poz": "NP.27",
+    "name": "Masque a poids - Hors géotextile anticontimant à compenser avec Prix C7.2",
+    "unit": "MC",
+    "dzd": 3405.85,
+    "eur": 10.5,
+    "dzd_eqv": 4480.0
+  },
+  {
+    "poz": "NP32",
+    "name": "Fibres pour Beton de fossè et canalette",
+    "unit": "Kg",
+    "dzd": 974.7,
+    "eur": 0.0,
+    "dzd_eqv": 974.7
+  },
+  {
+    "poz": "NP.48",
+    "name": "Déplacement du cimetière",
+    "unit": "U",
+    "dzd": 22275.0,
+    "eur": 0.0,
+    "dzd_eqv": 22275.0
+  },
+  {
+    "poz": "NP08.62",
+    "name": "Plus-value au prix J8 pour l'utilisation de plaque d'appui épaisseur 20 mm",
+    "unit": "U",
+    "dzd": 630.0,
+    "eur": 0.0,
+    "dzd_eqv": 630.0
+  },
+  {
+    "poz": "NP08.64",
+    "name": "Chambre de tirage L5C",
+    "unit": "U",
+    "dzd": 348873.07,
+    "eur": 11.02,
+    "dzd_eqv": 350000.416
+  },
+  {
+    "poz": "NP08.65",
+    "name": "Grille anti chute pour K2C ou K1C",
+    "unit": "U",
+    "dzd": 41364.79,
+    "eur": 0.0,
+    "dzd_eqv": 41364.79
+  },
+  {
+    "poz": "NP08.67",
+    "name": "Reseau multitubulaire longitudinal",
+    "unit": "ml",
+    "dzd": 6113.37,
+    "eur": 16.49,
+    "dzd_eqv": 7800.297
+  },
+  {
+    "poz": "NP08.68",
+    "name": "Traversée de chaussée",
+    "unit": "ml",
+    "dzd": 6792.85,
+    "eur": 2.02,
+    "dzd_eqv": 6999.496
+  },
+  {
+    "poz": "NP08.74",
+    "name": "Couche de forme, en matériaux sélectionnés de type 0/31,5 fournis par l'entreprise conformément aux plans d'executions.",
+    "unit": "m3",
+    "dzd": 1950.0,
+    "eur": 0.0,
+    "dzd_eqv": 1950.0
+  },
+  {
+    "poz": "NP08.14m",
+    "name": "Inclinomètres",
+    "unit": "U",
+    "dzd": 209998.56,
+    "eur": 2052.8,
+    "dzd_eqv": 420000.0
+  },
+  {
+    "poz": "NP11.14a.1",
+    "name": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 18000.0,
+    "eur": 0.0,
+    "dzd_eqv": 18000.0
+  },
+  {
+    "poz": "NP11.14b.1",
+    "name": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 15500.0,
+    "eur": 0.0,
+    "dzd_eqv": 15500.0
+  },
+  {
+    "poz": "NP11.14c.1",
+    "name": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 10000.0,
+    "eur": 0.0,
+    "dzd_eqv": 10000.0
+  },
+  {
+    "poz": "NP11.14d.1",
+    "name": "Essai Tomographie électrique",
+    "unit": "ml",
+    "dzd": 851.0,
+    "eur": 0.0,
+    "dzd_eqv": 851.0
+  },
+  {
+    "poz": "NP11.14e.1",
+    "name": "Essai Sismique a réfraction",
+    "unit": "ml",
+    "dzd": 1566.0,
+    "eur": 0.0,
+    "dzd_eqv": 1566.0
+  },
+  {
+    "poz": "NP11.19",
     "name": "Études apportés suite a la modification du tracé par rapport à l’APD",
     "unit": "ft",
-    "price": 36723806.0
+    "dzd": 36723806.0,
+    "eur": 358780.0,
+    "dzd_eqv": 73427000.0
   },
   {
-    "code": "A.3.1",
-    "name": "Études d'exécution",
-    "unit": "Ft",
-    "price": 212842500.0
+    "poz": "TU.E1.1",
+    "name": "Couche de fondation en grave non traitée (GNT)",
+    "unit": "m3",
+    "dzd": 1862.41,
+    "eur": 3.3,
+    "dzd_eqv": 2200.0
   },
   {
-    "code": "OUA.A2.1",
-    "name": "Études d'exécution",
+    "poz": "TU.E1.2",
+    "name": "Pierre nette 15/25",
+    "unit": "m3",
+    "dzd": 2800.0,
+    "eur": 0.0,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "TU.E1.3",
+    "name": "Enrobé à module élevé (EME)",
+    "unit": "Tonne",
+    "dzd": 4812.84,
+    "eur": 29.2,
+    "dzd_eqv": 7800.0
+  },
+  {
+    "poz": "TU.E1.4",
+    "name": "Couche de roulement en béton bitumineux",
+    "unit": "Tonne",
+    "dzd": 4337.9,
+    "eur": 27.0,
+    "dzd_eqv": 7100.0
+  },
+  {
+    "poz": "TU.E1.5",
+    "name": "Couche d'imprégnation",
+    "unit": "m2",
+    "dzd": 95.0,
+    "eur": 0.0,
+    "dzd_eqv": 95.0
+  },
+  {
+    "poz": "TU.E2.1",
+    "name": "Bande discontinue de module 3-10, largeur 15 cm",
+    "unit": "ml",
+    "dzd": 110.0,
+    "eur": 0.0,
+    "dzd_eqv": 110.0
+  },
+  {
+    "poz": "TU.E2.2",
+    "name": "Bande discontinue de module 20-6, largeur 22,5 cm",
+    "unit": "ml",
+    "dzd": 125.0,
+    "eur": 0.0,
+    "dzd_eqv": 125.0
+  },
+  {
+    "poz": "TU.2.3",
+    "name": "Bande continue, largeur 22,5 cm",
+    "unit": "ml",
+    "dzd": 135.0,
+    "eur": 0.0,
+    "dzd_eqv": 135.0
+  },
+  {
+    "poz": "TU.E3.5",
+    "name": "Portique  hors de gabarit",
+    "unit": "U",
+    "dzd": 309995.66,
+    "eur": 57575.8,
+    "dzd_eqv": 6200000.0
+  },
+  {
+    "poz": "TU.E3.1.1",
+    "name": "Panneau « Tunnel » (signal C111)",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.1.2",
+    "name": "Panneau  (signal B12)",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.1.3",
+    "name": "panneau de vitesse maximale autorisée dans le tunnel (signal B14)",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.1.4",
+    "name": "panneau dinterdiction de dépasser (signaux B3 et B3a);",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.1.5",
+    "name": "panneau  (signaux B18aB18c,B18c);",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.1.6",
+    "name": "panneau « sortie de tunnel » (signal C112)",
+    "unit": "U",
+    "dzd": 11768.62,
+    "eur": 2185.0,
+    "dzd_eqv": 235294.12
+  },
+  {
+    "poz": "TU.E3.2.1",
+    "name": "type signal B14",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.2.2",
+    "name": "type B17",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.2.3",
+    "name": "type B9a",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.2.4",
+    "name": "type B9b",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.2.5",
+    "name": "type B3a",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.2.6",
+    "name": "type B3b",
+    "unit": "U",
+    "dzd": 9998.21,
+    "eur": 1857.3,
+    "dzd_eqv": 199999.99999999997
+  },
+  {
+    "poz": "TU.E3.3.1",
+    "name": "type signal  C30a , C30b",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.3.2",
+    "name": "type signal  Dp2a , Dp2b",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.3.3",
+    "name": "type signal  CE2a",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.3.4",
+    "name": "type signal CE29",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.3.5",
+    "name": "type signal  M9",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.3.6",
+    "name": "type signal  CE22",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.R3.37",
+    "name": "type signal  CE8",
+    "unit": "U",
+    "dzd": 2589.45,
+    "eur": 480.3,
+    "dzd_eqv": 51724.14
+  },
+  {
+    "poz": "TU.E3.4.1",
+    "name": "Panneaux de consignes des niches de sécurité",
+    "unit": "U",
+    "dzd": 18750.48,
+    "eur": 3482.4,
+    "dzd_eqv": 375000.0
+  },
+  {
+    "poz": "TU.E3.4.2",
+    "name": "Panneaux de consignes des niches d'incendie",
+    "unit": "U",
+    "dzd": 18750.48,
+    "eur": 3482.4,
+    "dzd_eqv": 375000.0
+  },
+  {
+    "poz": "RU.E3.4.3",
+    "name": "Panneaux de consignes des galeries intertubes",
+    "unit": "U",
+    "dzd": 18750.48,
+    "eur": 3482.4,
+    "dzd_eqv": 375000.0
+  },
+  {
+    "poz": "OUA.A1",
+    "name": "Installation et repliement de chantier",
     "unit": "Ft",
-    "price": 455000003.56
+    "dzd": 1010357152.02,
+    "eur": 4786342.6,
+    "dzd_eqv": 1500000000.0
+  },
+  {
+    "poz": "OUA.A2.1",
+    "name": "Études dexécution",
+    "unit": "Ft",
+    "dzd": 455000003.56,
+    "eur": 4447702.8,
+    "dzd_eqv": 910000000.0
+  },
+  {
+    "poz": "OUA.A2.2",
+    "name": "Dossier de récolement",
+    "unit": "Ft",
+    "dzd": 43970223.22,
+    "eur": 430398.6,
+    "dzd_eqv": 88000000.0
+  },
+  {
+    "poz": "OUA.A3",
+    "name": "Contrôle externe - Plan d'assurance Qualité",
+    "unit": "Ft",
+    "dzd": 30000003.27,
+    "eur": 293255.1,
+    "dzd_eqv": 60000000.0
+  },
+  {
+    "poz": "OUA.A4",
+    "name": "Reconnaissance géotechnique",
+    "unit": "Ft",
+    "dzd": 210000002.43,
+    "eur": 2052785.9,
+    "dzd_eqv": 420000000.0
+  },
+  {
+    "poz": "OUA.A5",
+    "name": "Protection de l'environnement",
+    "unit": "Ft",
+    "dzd": 34999998.7,
+    "eur": 342131.0,
+    "dzd_eqv": 70000000.0
+  },
+  {
+    "poz": "OUA.A6",
+    "name": "Épreuve générale de l'ouvrage",
+    "unit": "Ft",
+    "dzd": 19218104.53,
+    "eur": 906958.9,
+    "dzd_eqv": 112000000.0
+  },
+  {
+    "poz": "OUA.B1.1",
+    "name": "Déblais pour fouilles",
+    "unit": "m3",
+    "dzd": 178.16,
+    "eur": 0.8,
+    "dzd_eqv": 260.0
+  },
+  {
+    "poz": "OUA.B1.2",
+    "name": "Plus value pour fouilles en terrain rocheux",
+    "unit": "m3",
+    "dzd": 1113.56,
+    "eur": 2.8,
+    "dzd_eqv": 1400.0
+  },
+  {
+    "poz": "OUA.B1.3",
+    "name": "Remblaiement de fouilles",
+    "unit": "m3",
+    "dzd": 613.56,
+    "eur": 2.8,
+    "dzd_eqv": 900.0
+  },
+  {
+    "poz": "OUA.B1.4",
+    "name": "Remblais aux abords immédiats des ouvrages",
+    "unit": "m3",
+    "dzd": 734.02,
+    "eur": 2.6,
+    "dzd_eqv": 1000.0
+  },
+  {
+    "poz": "OUA.B1.5",
+    "name": "Substitution de sol de qualité médiocre sous les semelles et les radiers",
+    "unit": "m3",
+    "dzd": 377.01,
+    "eur": 1.3,
+    "dzd_eqv": 510.0
+  },
+  {
+    "poz": "OUA.B1.6",
+    "name": "Démolition d'ouvrages existants en béton",
+    "unit": "m3",
+    "dzd": 1800.0,
+    "eur": 0.0,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "OUA.B1.7",
+    "name": "Enrochements",
+    "unit": "m3",
+    "dzd": 1245.4,
+    "eur": 2.0,
+    "dzd_eqv": 1450.0
+  },
+  {
+    "poz": "OUA.B2.1",
+    "name": "Forage des pieux verticaux ?1200 mm en terrain non rocheux",
+    "unit": "ml",
+    "dzd": 5404.19,
+    "eur": 54.7,
+    "dzd_eqv": 11000.0
+  },
+  {
+    "poz": "OUA.B2.2",
+    "name": "Plus-value pour forage en terrain rocheux nécessitant l'emploi d'un trépan",
+    "unit": "ml",
+    "dzd": 802.06,
+    "eur": 7.8,
+    "dzd_eqv": 1600.0
+  },
+  {
+    "poz": "OUA.B2.3",
+    "name": "Fourniture et mise en oeuvre des tubes métalliques Ø50/60 pour auscultation sonique",
+    "unit": "ml",
+    "dzd": 115.62,
+    "eur": 10.6,
+    "dzd_eqv": 1200.0
+  },
+  {
+    "poz": "OUA.B2.4",
+    "name": "Fourniture et mise en oeuvre des tubes métalliques Ø102/114 pour auscultation sonique",
+    "unit": "ml",
+    "dzd": 5.15,
+    "eur": 19.5,
+    "dzd_eqv": 2000.0
+  },
+  {
+    "poz": "OUA.B2.5",
+    "name": "Essai d'auscultation sonique",
+    "unit": "U",
+    "dzd": 16000.0,
+    "eur": 0.0,
+    "dzd_eqv": 16000.0
+  },
+  {
+    "poz": "OUA.B2.6",
+    "name": "Recépage des pieux",
+    "unit": "U",
+    "dzd": 2237.11,
+    "eur": 14.3,
+    "dzd_eqv": 3700.0
+  },
+  {
+    "poz": "OUA.B2.7",
+    "name": "Essais statiques de pieux isolés sous compression axiale",
+    "unit": "U",
+    "dzd": 1520000.0,
+    "eur": 0.0,
+    "dzd_eqv": 1520000.0
+  },
+  {
+    "poz": "OUA.B3.1",
+    "name": "Creusement manuel ou mécanique des puits ? 3000 mm",
+    "unit": "ml",
+    "dzd": 124999.63,
+    "eur": 1221.9,
+    "dzd_eqv": 250000.0
+  },
+  {
+    "poz": "OUA.B3.2",
+    "name": "Creusement manuel ou mécanique des puits ? 3500 mm",
+    "unit": "ml",
+    "dzd": 135004.92,
+    "eur": 1319.6,
+    "dzd_eqv": 270000.0
+  },
+  {
+    "poz": "OUA.B4.1.1",
+    "name": "Coffrage ordinaire pour parties non vues",
+    "unit": "m2",
+    "dzd": 853.21,
+    "eur": 7.3,
+    "dzd_eqv": 1600.0
+  },
+  {
+    "poz": "OUA.B4.1.2",
+    "name": "Coffrage fin pour parties vues",
+    "unit": "m2",
+    "dzd": 1036.08,
+    "eur": 10.4,
+    "dzd_eqv": 2100.0
+  },
+  {
+    "poz": "OUA.B4.1.3",
+    "name": "Coffrages fins et supports pour voussoirs coulés en place en suspension ou préfabriqués",
+    "unit": "m2",
+    "dzd": 808.48,
+    "eur": 22.4,
+    "dzd_eqv": 3100.0
+  },
+  {
+    "poz": "OUA.B4.2",
+    "name": "Étaiements",
+    "unit": "m2",
+    "dzd": 2177.0,
+    "eur": 10.0,
+    "dzd_eqv": 3200.0
+  },
+  {
+    "poz": "OUA.B4.3",
+    "name": "Badigeonnage des parements enterrés",
+    "unit": "m2",
+    "dzd": 759.08,
+    "eur": 0.4,
+    "dzd_eqv": 800.0
+  },
+  {
+    "poz": "OUA.B5.1",
+    "name": "Béton de propreté pour fond de fouille (ep=10 cm)",
+    "unit": "m2",
+    "dzd": 723.79,
+    "eur": 2.7,
+    "dzd_eqv": 1000.0
+  },
+  {
+    "poz": "OUA.B5.2.1",
+    "name": "Béton RN 40 pour caisson",
+    "unit": "m3",
+    "dzd": 21343.02,
+    "eur": 172.6,
+    "dzd_eqv": 39000.0
+  },
+  {
+    "poz": "OUA.B5.2.2",
+    "name": "Béton RN 40 pour poutres préfabriquées précontraintes, entretoises et bossages",
+    "unit": "m3",
+    "dzd": 11814.08,
+    "eur": 150.4,
+    "dzd_eqv": 27200.0
+  },
+  {
+    "poz": "OUA.B5.2.3",
+    "name": "Béton RN 35 pour poutres préfabriquées précontraintes, entretoises et bossages",
+    "unit": "m3",
+    "dzd": 11029.87,
+    "eur": 113.1,
+    "dzd_eqv": 22600.0
+  },
+  {
+    "poz": "OUA.B5.2.4",
+    "name": "Béton RN 27 pour pieux et puits",
+    "unit": "m3",
+    "dzd": 8627.19,
+    "eur": 44.7,
+    "dzd_eqv": 13200.0
+  },
+  {
+    "poz": "OUA.B5.2.5",
+    "name": "Béton RN 35 pour pieux et puits",
+    "unit": "m3",
+    "dzd": 9247.65,
+    "eur": 44.5,
+    "dzd_eqv": 13800.0
+  },
+  {
+    "poz": "OUA.B5.2.6",
+    "name": "Béton RN 35 pour piles",
+    "unit": "m3",
+    "dzd": 12538.45,
+    "eur": 48.5,
+    "dzd_eqv": 17500.0
+  },
+  {
+    "poz": "OUA.B5.2.7",
+    "name": "Béton RN 27 pour murs, semelles, dalle de transition, culées, piles, chevêtres, corniches, longrines, trottoirs et dallettes de couvertures préfabriquées",
+    "unit": "m3",
+    "dzd": 10736.15,
+    "eur": 49.5,
+    "dzd_eqv": 15800.0
+  },
+  {
+    "poz": "OUA.B5.2.8",
+    "name": "Béton RN 27 pour hourdis (dalle de couverture)",
+    "unit": "m3",
+    "dzd": 11372.71,
+    "eur": 42.3,
+    "dzd_eqv": 15700.0
+  },
+  {
+    "poz": "OUA.B5.2.9",
+    "name": "Plus-value pour l'utilisation du béton avec ciment CRS RN 27",
+    "unit": "m3",
+    "dzd": 1200.0,
+    "eur": 0.0,
+    "dzd_eqv": 1200.0
+  },
+  {
+    "poz": "OUA.B5.2.10",
+    "name": "Plus-value pour l'utilisation du béton avec ciment CRS RN 35",
+    "unit": "m3",
+    "dzd": 1500.0,
+    "eur": 0.0,
+    "dzd_eqv": 1500.0
+  },
+  {
+    "poz": "OUA.B6.1.1",
+    "name": "Acier HA",
+    "unit": "Tonne",
+    "dzd": 67033.93,
+    "eur": 380.9,
+    "dzd_eqv": 106000.0
+  },
+  {
+    "poz": "OUA.B6.1.2",
+    "name": "Treillis soudés 150X150 ?10",
+    "unit": "Tonne",
+    "dzd": 69026.52,
+    "eur": 527.6,
+    "dzd_eqv": 123000.0
+  },
+  {
+    "poz": "OUA.B6.2",
+    "name": "Armatures de précontrainte",
+    "unit": "Tonne",
+    "dzd": 55688.54,
+    "eur": 3170.2,
+    "dzd_eqv": 379999.99999999994
+  },
+  {
+    "poz": "OUA.B7.1.1",
+    "name": "Plot parasismique 2100/210/80, multidirectionnel",
+    "unit": "U",
+    "dzd": 260001.71,
+    "eur": 3812.3,
+    "dzd_eqv": 650000.0
+  },
+  {
+    "poz": "OUA.B7.1.2",
+    "name": "Appareil d'appuis à pot 7500/210/80 multidirectionnel",
+    "unit": "U",
+    "dzd": 449995.02,
+    "eur": 2932.6,
+    "dzd_eqv": 750000.0
+  },
+  {
+    "poz": "OUA.B7.1.3",
+    "name": "Appareil d'appuis à pot 35100/210/5 unidirectionnel",
+    "unit": "U",
+    "dzd": 874995.19,
+    "eur": 15884.7,
+    "dzd_eqv": 2500000.0
+  },
+  {
+    "poz": "OUA.B7.1.4",
+    "name": "Appareil d'appuis à pot 35100/210/80 multidirectionnel",
+    "unit": "U",
+    "dzd": 840001.59,
+    "eur": 12316.7,
+    "dzd_eqv": 2100000.0
+  },
+  {
+    "poz": "OUA.B7.1.5",
+    "name": "Appareil d'appuis à pot 5500/400/50 multidirectionnel",
+    "unit": "U",
+    "dzd": 225001.38,
+    "eur": 2199.4,
+    "dzd_eqv": 450000.0
+  },
+  {
+    "poz": "OUA.B7.1.6",
+    "name": "Appareil d'appuis guidé 5500/1400",
+    "unit": "U",
+    "dzd": 228000.87,
+    "eur": 3343.1,
+    "dzd_eqv": 570000.0
+  },
+  {
+    "poz": "OUA.B7.1.7",
+    "name": "Appareil d'appuis en élastomère fretté",
+    "unit": "dm3",
+    "dzd": 106.97,
+    "eur": 36.1,
+    "dzd_eqv": 3800.0
+  },
+  {
+    "poz": "B7.2",
+    "name": "Chape d'étanchéité sur l'ouvrage",
+    "unit": "m2",
+    "dzd": 1895.4,
+    "eur": 2.0,
+    "dzd_eqv": 2100.0
+  },
+  {
+    "poz": "OUA.B7.3",
+    "name": "Gargouilles",
+    "unit": "U",
+    "dzd": 5128.39,
+    "eur": 0.7,
+    "dzd_eqv": 5200.0
+  },
+  {
+    "poz": "OUA.B7.4",
+    "name": "Caniveau fil d'eau en asphalte porphyre",
+    "unit": "ml",
+    "dzd": 1951.44,
+    "eur": 7.2,
+    "dzd_eqv": 2688.0
+  },
+  {
+    "poz": "OUA.B7.5.1",
+    "name": "Souffle : 240mm",
+    "unit": "ml",
+    "dzd": 9389.7,
+    "eur": 1961.0,
+    "dzd_eqv": 210000.0
+  },
+  {
+    "poz": "OUA.B7.5.2",
+    "name": "Souffle : 160mm",
+    "unit": "ml",
+    "dzd": 10432.46,
+    "eur": 1559.8,
+    "dzd_eqv": 169999.99999999997
+  },
+  {
+    "poz": "OUA.B7.5.3",
+    "name": "Souffle : 80mm",
+    "unit": "ml",
+    "dzd": 2326.43,
+    "eur": 905.9,
+    "dzd_eqv": 94999.99999999999
+  },
+  {
+    "poz": "OUA.B7.6.1",
+    "name": "Garde-corps type N2 selon le SETRA et la Norme 1317 (1,2)",
+    "unit": "ml",
+    "dzd": 23146.55,
+    "eur": 1.5,
+    "dzd_eqv": 23300.0
+  },
+  {
+    "poz": "OUA.B7.6.2",
+    "name": "Glissière de sécurité de niveau H3-16t et la Norme 1317 (1,2)",
+    "unit": "ml",
+    "dzd": 3761.9,
+    "eur": 147.0,
+    "dzd_eqv": 18800.0
+  },
+  {
+    "poz": "OUA.B7.6.3",
+    "name": "Barrières de sécurité  de niveau H4-b 38t SELON le SETRA",
+    "unit": "ml",
+    "dzd": 7021.77,
+    "eur": 160.1,
+    "dzd_eqv": 23400.0
+  },
+  {
+    "poz": "OUA.B7.7",
+    "name": "Dispositifs d'amortissement parasismique",
+    "unit": "U",
+    "dzd": 579.41,
+    "eur": 12213.3,
+    "dzd_eqv": 1249999.9999999998
+  },
+  {
+    "poz": "OUA.B8",
+    "name": "Multitubulaires",
+    "unit": "ml",
+    "dzd": 1800.0,
+    "eur": 0.0,
+    "dzd_eqv": 1800.0
+  },
+  {
+    "poz": "OUA.C1",
+    "name": "Rideaux de palplanches",
+    "unit": "m2",
+    "dzd": 25000.0,
+    "eur": 0.0,
+    "dzd_eqv": 25000.0
+  },
+  {
+    "poz": "OUA.C2",
+    "name": "Perres maçonnées",
+    "unit": "m2",
+    "dzd": 2554.48,
+    "eur": 2.4,
+    "dzd_eqv": 2800.0
+  },
+  {
+    "poz": "OUA.C4.2",
+    "name": "Béton projeté ep=100 mm",
+    "unit": "m2",
+    "dzd": 1478.03,
+    "eur": 13.9,
+    "dzd_eqv": 2900.0
+  },
+  {
+    "poz": "OUA.C4.3",
+    "name": "Treillis soudées",
+    "unit": "Kg",
+    "dzd": 71.85,
+    "eur": 0.5,
+    "dzd_eqv": 123.0
+  },
+  {
+    "poz": "OUA.C4.4.1",
+    "name": "Barbacane en PVC ? 50mm",
+    "unit": "ml",
+    "dzd": 500.0,
+    "eur": 0.0,
+    "dzd_eqv": 500.0
+  },
+  {
+    "poz": "OUA.C4.4.2",
+    "name": "Barbacane en PVC ?100mm",
+    "unit": "ml",
+    "dzd": 700.0,
+    "eur": 0.0,
+    "dzd_eqv": 700.0
+  },
+  {
+    "poz": "OUA.C4.1.1",
+    "name": "Clous de 32mm 16m",
+    "unit": "U",
+    "dzd": 25618.47,
+    "eur": 31.1,
+    "dzd_eqv": 28800.0
+  },
+  {
+    "poz": "OUA.C4.1.2",
+    "name": "Clous de 32mm 12m",
+    "unit": "U",
+    "dzd": 19226.64,
+    "eur": 23.2,
+    "dzd_eqv": 21600.0
+  },
+  {
+    "poz": "OUA.C5.1",
+    "name": "Pour mur de hauteur de 2m à 4m",
+    "unit": "m2",
+    "dzd": 18500.0,
+    "eur": 0.0,
+    "dzd_eqv": 18500.0
+  },
+  {
+    "poz": "OUA.C5.2",
+    "name": "Pour mur de hauteur de 4m à 6m",
+    "unit": "m2",
+    "dzd": 21000.0,
+    "eur": 0.0,
+    "dzd_eqv": 21000.0
+  },
+  {
+    "poz": "OUA.C5.3",
+    "name": "Pour mur de hauteur plus de 6m",
+    "unit": "m2",
+    "dzd": 25000.0,
+    "eur": 0.0,
+    "dzd_eqv": 25000.0
+  },
+  {
+    "poz": "OUA.C6",
+    "name": "Mur de soutènement en gabion sur une hauteur max de 6 m",
+    "unit": "m3",
+    "dzd": 5500.0,
+    "eur": 0.0,
+    "dzd_eqv": 5500.0
+  },
+  {
+    "poz": "OUA.NP.05",
+    "name": "Shock Trasmittal pour Voussoir",
+    "unit": "U",
+    "dzd": 659476.9,
+    "eur": 53097.0,
+    "dzd_eqv": 6091300.0
+  },
+  {
+    "poz": "OUA.NP.06",
+    "name": "Isolateur simiques pour Viaducs a Voussoir",
+    "unit": "U",
+    "dzd": 134282.61,
+    "eur": 15822.32,
+    "dzd_eqv": 1752905.946
+  },
+  {
+    "poz": "OUA.NP.09a",
+    "name": "Tirants jusqu’à 45 T compris plaque d'ancrage",
+    "unit": "ml",
+    "dzd": 4260.0,
+    "eur": 89.0,
+    "dzd_eqv": 13364.699999999999
+  },
+  {
+    "poz": "OUA.NP.09b",
+    "name": "Tirants jusqu’à 75 T compris plaque d'ancrage",
+    "unit": "ml",
+    "dzd": 4310.0,
+    "eur": 103.0,
+    "dzd_eqv": 14846.9
+  },
+  {
+    "poz": "OUA.NP.09c",
+    "name": "Essais non destructif pour tirantes",
+    "unit": "U",
+    "dzd": 35832.83,
+    "eur": 133.77,
+    "dzd_eqv": 49517.501000000004
+  },
+  {
+    "poz": "OUA.NP.09d",
+    "name": "Essais destructif pour tirantes",
+    "unit": "U",
+    "dzd": 96892.4,
+    "eur": 364.84,
+    "dzd_eqv": 134215.532
+  },
+  {
+    "poz": "OUA.NP.10",
+    "name": "Poutre métallique pour ancrage des tirants",
+    "unit": "kg",
+    "dzd": 183.0,
+    "eur": 0.0,
+    "dzd_eqv": 183.0
+  },
+  {
+    "poz": "OUA.NP.35",
+    "name": "Joints pour dalot y compris polystyrène de type bandes agrée",
+    "unit": "ml",
+    "dzd": 6820.0,
+    "eur": 0.0,
+    "dzd_eqv": 6820.0
+  },
+  {
+    "poz": "OUA.NP.36",
+    "name": "Géotextile anti-contaminant pour LOT OUVRAGES D'ART",
+    "unit": "m²",
+    "dzd": 258.27,
+    "eur": 5.1,
+    "dzd_eqv": 779.9999999999999
+  },
+  {
+    "poz": "OUA.NP.57.1",
+    "name": "Appareil d'appui à pot 45000 KN / 6200 kN /6200 kN  Fixe",
+    "unit": "U",
+    "dzd": 381136.9,
+    "eur": 29897.0,
+    "dzd_eqv": 3439600.0
+  },
+  {
+    "poz": "OUA.NP.57.2",
+    "name": "Appareil d'appui à pot 45000 KN / 6200 kN / + - 700 mm pour Viaducs a Voussoir",
+    "unit": "U",
+    "dzd": 576958.6,
+    "eur": 49018.0,
+    "dzd_eqv": 5591499.999999999
+  },
+  {
+    "poz": "OUA.NP.57.3",
+    "name": "Appareil d'appui à pot multidirectionnel 12000 KN / + - 750 mm / + - 550 mm pour Viaducs a Voussoir",
+    "unit": "U",
+    "dzd": 341437.9,
+    "eur": 26027.0,
+    "dzd_eqv": 3004000.0
+  },
+  {
+    "poz": "OUA.NP.59",
+    "name": "Passerelles permanentes en acier",
+    "unit": "kg",
+    "dzd": 550.0,
+    "eur": 0.0,
+    "dzd_eqv": 550.0
+  },
+  {
+    "poz": "OUA.NP08.01",
+    "name": "Précontrainte extérieure",
+    "unit": "Tonne",
+    "dzd": 124806.5,
+    "eur": 3628.48,
+    "dzd_eqv": 496000.004
+  },
+  {
+    "poz": "OUA.NP08.02",
+    "name": "Installation et assemblage de voussoirs  prèfabbriquès",
+    "unit": "m3",
+    "dzd": 8711.3,
+    "eur": 131.37,
+    "dzd_eqv": 22150.451
+  },
+  {
+    "poz": "OUA.NP08.38",
+    "name": "Remblais contigus en matériaux concassés 0/63",
+    "unit": "m3",
+    "dzd": 2134.02,
+    "eur": 2.6,
+    "dzd_eqv": 2400.0
+  },
+  {
+    "poz": "OUA.NP08.41",
+    "name": "Drain perforé 150 -160 mm pour dalot et OA  lot ouvrage d'art",
+    "unit": "ml",
+    "dzd": 2700.0,
+    "eur": 0.0,
+    "dzd_eqv": 2700.0
+  },
+  {
+    "poz": "OUA.NP08.44",
+    "name": "Joint Water Stop pour dalot en PVC 200 à 250mm",
+    "unit": "ml",
+    "dzd": 2550.0,
+    "eur": 0.0,
+    "dzd_eqv": 2550.0
+  },
+  {
+    "poz": "OUA.NP08.60",
+    "name": "Fourniture et mise en place de Grille en acier inox composè en fer rond fi 16 mm et corniere 40x40x4 mm",
+    "unit": "U",
+    "dzd": 92769.59,
+    "eur": 0.0,
+    "dzd_eqv": 92769.59
+  },
+  {
+    "poz": "OUA.NP08.70",
+    "name": "Fourniture et pose des cales biaises",
+    "unit": "U",
+    "dzd": 25000.0,
+    "eur": 0.0,
+    "dzd_eqv": 25000.0
+  },
+  {
+    "poz": "OUA.NP08.71",
+    "name": "Matériaux drainant pour purge ,en gravier 04/63",
+    "unit": "m3",
+    "dzd": 2200.0,
+    "eur": 0.0,
+    "dzd_eqv": 2200.0
+  },
+  {
+    "poz": "OUA.NP08.72",
+    "name": "Joint de chaussee souffle entre  100 mm  au 140mm",
+    "unit": "ml",
+    "dzd": 31500.0,
+    "eur": 1030.0,
+    "dzd_eqv": 136869.0
+  },
+  {
+    "poz": "OUA.NP11.03",
+    "name": "Joints de chaussée avec souffle de 250 à 400 mm",
+    "unit": "ml",
+    "dzd": 26173.22,
+    "eur": 3898.6,
+    "dzd_eqv": 425000.0
+  },
+  {
+    "poz": "OUA.NP.11.04",
+    "name": "Joints de chaussée avec souffle de 500 à 800 mm",
+    "unit": "ml",
+    "dzd": 102606.0,
+    "eur": 9780.0,
+    "dzd_eqv": 1103100.0
+  },
+  {
+    "poz": "OUA.NP11.14a.2",
+    "name": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 18000.0,
+    "eur": 0.0,
+    "dzd_eqv": 18000.0
+  },
+  {
+    "poz": "OUA.NP11.14b.2",
+    "name": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 15500.0,
+    "eur": 0.0,
+    "dzd_eqv": 15500.0
+  },
+  {
+    "poz": "OUA.NP11.14c.2",
+    "name": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "unit": "ml",
+    "dzd": 10000.0,
+    "eur": 0.0,
+    "dzd_eqv": 10000.0
+  },
+  {
+    "poz": "OUA.NP11.14d.2",
+    "name": "Essai Tomographie électrique",
+    "unit": "ml",
+    "dzd": 851.0,
+    "eur": 0.0,
+    "dzd_eqv": 851.0
+  },
+  {
+    "poz": "OUA.NP11.14e.2",
+    "name": "Essai Sismique a réfraction",
+    "unit": "ml",
+    "dzd": 1566.0,
+    "eur": 0.0,
+    "dzd_eqv": 1566.0
+  },
+  {
+    "poz": "OUA.NP11.58.1",
+    "name": "Fourniture et pose des éléments ancillaires en acier galvanisé à chaud",
+    "unit": "kg",
+    "dzd": 1531.53,
+    "eur": 0.0,
+    "dzd_eqv": 1531.53
+  },
+  {
+    "poz": "OUA.NP11.84",
+    "name": "Béton RN35 pour hourdis (dalle de couverture) et pour radier de dalots à forte pente",
+    "unit": "m³",
+    "dzd": 15206.72,
+    "eur": 42.14,
+    "dzd_eqv": 19517.642
   }
 ]
