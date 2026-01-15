@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Ekskavatör",
+    "daily": 40000
+  },
+  {
+    "name": "Bulldozer",
+    "daily": 50000
+  },
+  {
+    "name": "Greyder",
+    "daily": 45000
+  },
+  {
+    "name": "Loader",
+    "daily": 35000
+  },
+  {
+    "name": "Paletli Loader",
+    "daily": 40000
+  },
+  {
+    "name": "Kompaktör",
+    "daily": 20000
+  },
+  {
+    "name": "Kamyon",
+    "daily": 17000
+  },
+  {
+    "name": "Jcb",
+    "daily": 10000
+  },
+  {
+    "name": "Tır",
+    "daily": 25000
+  },
+  {
+    "name": "Lowbed",
+    "daily": 30000
+  },
+  {
+    "name": "Arazöz",
+    "daily": 20000
+  },
+  {
+    "name": "Shotcrete Makinesi",
+    "daily": 40000
+  },
+  {
+    "name": "Enjeksiyon Makinesi",
+    "daily": 10000
+  }
+]

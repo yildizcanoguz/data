@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hakediş & Maliyet (Data Dışarıdan)</title>
+  <style>
+    :root{
+      --bg:#f4f6f8; --card:#ffffff; --text:#0f172a; --muted:#64748b;
+      --border:#e2e8f0; --shadow:0 12px 32px rgba(15,23,42,.10);
+      --primary:#2d7ff9; --danger:#ef4444; --good:#16a34a;
+      --radius:20px; --chip:#eef2ff; --chipText:#1e3a8a; --focus: rgba(45,127,249,.18);
+    }
+    body.dark{
+      --bg:#0b1220; --card:#0f1a2e; --text:#e5e7eb; --muted:#93a4bd;
+      --border:#233553; --shadow:0 14px 40px rgba(0,0,0,.38);
+      --primary:#4ea1ff; --chip:#12234a; --chipText:#b9d7ff; --focus: rgba(78,161,255,.22);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1180px;margin:22px auto;padding:0 14px 40px;}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+    h1{margin:0;font-size:26px;letter-spacing:.2px}
+    .btn{border:1px solid var(--border);background:var(--card);color:var(--text);padding:10px 14px;border-radius:14px;cursor:pointer;font-weight:800;display:inline-flex;align-items:center;gap:8px;user-select:none}
+    .btn.primary{background:var(--primary);border-color:transparent;color:#fff}
+    .btn.danger{background:var(--danger);border-color:transparent;color:#fff}
+    .btn:active{transform:translateY(1px)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+    @media (max-width: 980px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;}
+    .card h2{margin:0 0 12px;font-size:16px;color:var(--muted);letter-spacing:.15px;}
+    .sticky-summary{position:sticky;top:10px;z-index:20;display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 14px;}
+    .sum{flex:1;min-width:220px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px 14px;box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;gap:12px;}
+    .sum b{font-size:12px;color:var(--muted);letter-spacing:.2px}
+    .sum strong{font-size:16px}
+    .sum.good strong{color:var(--good)}
+    .sum.bad strong{color:var(--danger)}
+    .row{display:grid;grid-template-columns:1fr 160px 160px;gap:10px;align-items:end}
+    @media (max-width: 760px){.row{grid-template-columns:1fr}}
+    label{font-size:12px;color:var(--muted);font-weight:900;display:block;margin-bottom:6px}
+    input,textarea{width:100%;padding:12px;border:1px solid var(--border);border-radius:14px;background:transparent;color:var(--text);outline:none}
+    input:focus, textarea:focus{box-shadow:0 0 0 4px var(--focus);border-color:transparent}
+    input[readonly]{opacity:.9}
+    .bar{margin-top:12px;padding:14px;border-radius:18px;background:var(--primary);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:10px;font-weight:950;letter-spacing:.2px;}
+    table{width:100%;border-collapse:separate;border-spacing:0}
+    th,td{padding:10px;border-bottom:1px solid var(--border);text-align:left;font-size:13px;vertical-align:top}
+    th{font-size:12px;color:var(--muted);font-weight:950}
+    tr:last-child td{border-bottom:none}
+    .right{text-align:right}
+    .mini{font-size:12px;color:var(--muted)}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:7px 10px;border-radius:999px;background:var(--chip);color:var(--chipText);font-weight:900;font-size:12px;user-select:none}
+    .section{border:1px dashed var(--border);border-radius:18px;padding:12px;}
+    .hint{font-size:12px;color:var(--muted);line-height:1.35;margin-top:6px}
+    .filebtn{position:relative;overflow:hidden}
+    .filebtn input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer}
+
+    /* Searchable dropdown */
+    .sdd{position:relative}
+    .sdd .inputBar{
+      display:flex;gap:8px;align-items:center;
+      padding:10px 12px;border:1px solid var(--border);
+      border-radius:14px; background:transparent;
+      cursor:pointer;
+    }
+    .sdd .inputBar input{
+      width:100%;
+      border:none;padding:0;outline:none;background:transparent;color:var(--text);
+      cursor:text;
+    }
+    .sdd .inputBar input:focus{box-shadow:none}
+    .sdd .inputBar .tag{
+      padding:6px 10px;border-radius:999px;background:rgba(45,127,249,.12);
+      color:var(--text);font-weight:900;font-size:12px;border:1px solid var(--border);
+      white-space:nowrap;
+    }
+    .sdd .inputBar .kbd{font-size:12px;color:var(--muted);font-weight:900}
+    .sdd .panel{
+      position:absolute;left:0;right:0;top:calc(100% + 8px);
+      background:var(--card); border:1px solid var(--border); border-radius:16px;
+      box-shadow:var(--shadow); max-height:280px; overflow:auto; display:none; z-index:60;
+    }
+    .sdd.open .panel{display:block}
+    .sdd .item{width:100%;text-align:left;border:none;background:transparent;cursor:pointer;padding:10px 12px;color:var(--text);}
+    .sdd .item:hover{background:rgba(45,127,249,.10)}
+    .sdd .item b{display:block}
+    .sdd .item .meta{font-size:12px;color:var(--muted)}
+    .toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);padding:10px 12px;border-radius:14px;display:none;z-index:100;max-width:min(780px, 92vw);}
+
+    @media print{
+      .no-print{display:none!important}
+      body{background:white}
+      .card{box-shadow:none}
+      .wrap{max-width:none}
+      .sticky-summary{position:static}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap">
+        <h1>HAKEDİŞ & MALİYET</h1>
+        <span class="pill" id="dataBadge">Data: yükleniyor…</span>
+      </div>
+
+      <div class="actions no-print" style="margin:0">
+        <span class="pill">DZD</span>
+
+        <button class="btn filebtn" title="Excel dosyası seçip datayı güncelle">
+          📄 Excel’den Güncelle
+          <input type="file" id="excelInput" accept=".xlsx,.xls" />
+        </button>
+
+        <button class="btn" id="reloadJson">🔄 Data Yenile</button>
+        <button class="btn" id="toggleTheme">🌙 Tema</button>
+        <button class="btn" id="printBtn">🖨️ Yazdır</button>
+        <button class="btn" id="saveBtn">💾 Kaydet</button>
+        <button class="btn" id="loadBtn">📥 Yükle</button>
+        <button class="btn danger" id="resetBtn">🧹 Sıfırla</button>
+      </div>
+
+      <div class="hint no-print" style="width:100%">
+        ✅ Varsayılan: <b>data/jobs.json</b> ve <b>data/machines.json</b> dosyalarından okur.
+        <br/>📄 “Excel’den Güncelle” ile seçtiğin Excel’i okuyup <b>lokal cache</b>’e yazar (HTML’e data gömme yok).
+      </div>
+    </div>
+
+    <div class="sticky-summary">
+      <div class="sum"><div><b>TOPLAM GELİR</b><div class="mini">İş kalemleri toplamı</div></div><strong id="sumIncome">0,00 DZD</strong></div>
+      <div class="sum"><div><b>TOPLAM GİDER</b><div class="mini">Makine + diğer giderler</div></div><strong id="sumExpense">0,00 DZD</strong></div>
+      <div class="sum" id="sumNetBox"><div><b>NET</b><div class="mini">Gelir - Gider</div></div><strong id="sumNet">0,00 DZD</strong></div>
+      <div class="sum"><div><b>MARJ</b><div class="mini">Net / Gelir</div></div><strong id="sumMargin">%0,00</strong></div>
+    </div>
+
+    <div class="grid">
+      <!-- GELİR -->
+      <div class="card">
+        <h2>1) Hakediş (Gelir)</h2>
+
+        <div class="section">
+          <div class="row">
+            <div>
+              <label>İş Kalemi (arama + seç)</label>
+              <div class="sdd" id="jobSdd">
+                <div class="inputBar" id="jobBar">
+                  <span class="tag" id="jobTag">Seçilmedi</span>
+                  <input id="jobSearch" placeholder="Yaz: kazı, béton, GNT, buse..." autocomplete="off" />
+                  <span class="kbd">⌄</span>
+                </div>
+                <div class="panel" id="jobPanel"></div>
+              </div>
+            </div>
+            <div>
+              <label>Birim</label>
+              <input id="jobUnit" readonly placeholder="-" />
+            </div>
+            <div>
+              <label>Birim Fiyat (DZD)</label>
+              <input id="jobPrice" readonly placeholder="0.00" />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:10px;grid-template-columns:1fr 160px 160px;">
+            <div>
+              <label>Not (PK / ekip / taşeron)</label>
+              <input id="jobNote" placeholder="Opsiyonel" />
+            </div>
+            <div>
+              <label>Miktar</label>
+              <input id="jobQty" type="number" step="0.01" min="0" placeholder="0" inputmode="decimal" />
+            </div>
+            <div>
+              <label>Satır Toplamı</label>
+              <input id="jobLineTotal" readonly placeholder="0.00" />
+            </div>
+          </div>
+
+          <div class="actions no-print">
+            <button class="btn primary" id="addJob">➕ Gelire Ekle</button>
+            <button class="btn" id="clearJob">Temizle</button>
+          </div>
+        </div>
+
+        <div class="bar" style="margin-top:14px;">
+          <div>Gelir Satırları</div>
+          <div id="incomeCount">0 satır</div>
+        </div>
+
+        <div style="margin-top:10px;overflow:auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Kalem</th>
+                <th>Not</th>
+                <th>Birim</th>
+                <th class="right">B.Fiyat</th>
+                <th class="right">Miktar</th>
+                <th class="right">Toplam</th>
+                <th class="right no-print">Sil</th>
+              </tr>
+            </thead>
+            <tbody id="incomeTable"></tbody>
+          </table>
+        </div>
+
+        <div class="actions no-print">
+          <button class="btn" id="exportIncomeCsv">⬇️ Gelir CSV</button>
+          <button class="btn" id="exportDataJson">⬇️ Data JSON</button>
+        </div>
+      </div>
+
+      <!-- GİDER -->
+      <div class="card">
+        <h2>2) Gider (Makine + Diğer)</h2>
+
+        <div class="section">
+          <div class="row" style="grid-template-columns:1fr 160px 160px;">
+            <div>
+              <label>Makine (tıkla açılır + ara)</label>
+              <div class="sdd" id="macSdd">
+                <div class="inputBar" id="macBar">
+                  <span class="tag" id="macTag">Seçilmedi</span>
+                  <input id="macSearch" placeholder="Yaz: ekskavatör, kamyon, dozer..." autocomplete="off" />
+                  <span class="kbd">⌄</span>
+                </div>
+                <div class="panel" id="macPanel"></div>
+              </div>
+            </div>
+            <div>
+              <label>Günlük Kira (DZD)</label>
+              <input id="macDaily" readonly placeholder="0.00" />
+            </div>
+            <div>
+              <label>Gün Sayısı</label>
+              <input id="macDays" type="number" step="1" min="0" placeholder="0" inputmode="numeric" />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:10px;grid-template-columns:1fr 160px 160px;">
+            <div>
+              <label>Not (PK / vardiya)</label>
+              <input id="macNote" placeholder="Opsiyonel" />
+            </div>
+            <div>
+              <label>Satır Toplamı</label>
+              <input id="macLineTotal" readonly placeholder="0.00" />
+            </div>
+            <div class="actions no-print" style="margin:0">
+              <button class="btn primary" id="addMac">➕ Makineyi Ekle</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" style="margin-top:12px;">
+          <div class="row" style="grid-template-columns:1fr 160px 160px;">
+            <div>
+              <label>Diğer Gider Adı</label>
+              <input id="othName" placeholder="Mazot / Nakliye / Malzeme..." />
+            </div>
+            <div>
+              <label>Birim Fiyat (DZD)</label>
+              <input id="othPrice" type="number" step="0.01" min="0" placeholder="0.00" inputmode="decimal" />
+            </div>
+            <div>
+              <label>Miktar</label>
+              <input id="othQty" type="number" step="0.01" min="0" placeholder="0" inputmode="decimal" />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:10px;grid-template-columns:1fr 160px 160px;">
+            <div>
+              <label>Not</label>
+              <input id="othNote" placeholder="Fiş no / PK..." />
+            </div>
+            <div>
+              <label>Satır Toplamı</label>
+              <input id="othLineTotal" readonly placeholder="0.00" />
+            </div>
+            <div class="actions no-print" style="margin:0">
+              <button class="btn primary" id="addOth">➕ Diğer Gider Ekle</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bar" style="margin-top:14px;">
+          <div>Gider Satırları</div>
+          <div id="expenseCount">0 satır</div>
+        </div>
+
+        <div style="margin-top:10px;overflow:auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Tip</th>
+                <th>Ad</th>
+                <th>Not</th>
+                <th class="right">B.Fiyat</th>
+                <th class="right">Miktar</th>
+                <th class="right">Toplam</th>
+                <th class="right no-print">Sil</th>
+              </tr>
+            </thead>
+            <tbody id="expenseTable"></tbody>
+          </table>
+        </div>
+
+        <div class="actions no-print">
+          <button class="btn" id="exportAllCsv">⬇️ Excel (CSV)</button>
+          <button class="btn" id="exportJson">⬇️ JSON</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+/* ================= DATA (outside HTML) =================
+   - Default: ./data/jobs.json, ./data/machines.json
+   - Optional: Excel import -> cached to localStorage
+*/
+let JOB_DB = [];
+let MACHINES = [];
+
+const LS_KEY = "hm_state_v2";
+const LS_DATA_CACHE = "hm_data_cache_v2";
+const state = { selectedJobCode:null, selectedMachineId:null, incomeLines:[], expenseLines:[] };
+
+const el = (id)=>document.getElementById(id);
+const nf = new Intl.NumberFormat("tr-TR",{minimumFractionDigits:2,maximumFractionDigits:2});
+const money = (v)=> nf.format(Number(v||0)) + " DZD";
+const pct = (v)=> "%"+ nf.format(Number(v||0));
+const num = (v)=> { const n = Number(v); return isFinite(n)?n:0; };
+
+function toast(msg){
+  const t = el("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  clearTimeout(toast._to);
+  toast._to = setTimeout(()=> t.style.display="none", 2200);
+}
+function escapeHtml(s){
+  return String(s ?? "")
+    .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;").replaceAll("'","&#039;");
+}
+function normalizeCode(code){
+  const c = String(code||"").trim();
+  const m = c.match(/^([A-Za-z]+)(\d)(.*)$/);
+  if(m){
+    const letters=m[1], rest=m[2]+m[3];
+    return letters + "." + rest;
+  }
+  return c;
+}
+async function loadJson(path){
+  const r = await fetch(path, { cache:"no-store" });
+  if(!r.ok) throw new Error("Load failed: " + path);
+  return await r.json();
+}
+function setDataBadge(text){
+  const b = el("dataBadge");
+  b.textContent = text;
+}
+
+async function loadDataFromJson(){
+  // if cache exists, use fast
+  const cached = localStorage.getItem(LS_DATA_CACHE);
+  if(cached){
+    try{
+      const p = JSON.parse(cached);
+      if(Array.isArray(p.jobs) && Array.isArray(p.machines)){
+        JOB_DB = p.jobs;
+        MACHINES = p.machines;
+        setDataBadge("Data: cache (lokal)");
+      }
+    }catch{}
+  }
+
+  // try refresh from files
+  const [jobs, machines] = await Promise.all([
+    loadJson("./data/jobs.json"),
+    loadJson("./data/machines.json")
+  ]);
+
+  JOB_DB = jobs.map(j=>({
+    code: j.code ? String(j.code) : "",
+    name: String(j.name||"").replaceAll("","'").trim(),
+    unit: String(j.unit||"").trim(),
+    price: num(j.price)
+  }));
+  MACHINES = machines.map(m=>({
+    id: String(m.name||m.id||"").trim(),
+    name: String(m.name||"").trim(),
+    daily: num(m.daily)
+  }));
+
+  localStorage.setItem(LS_DATA_CACHE, JSON.stringify({ jobs: JOB_DB, machines: MACHINES }));
+  setDataBadge(`Data: json (${JOB_DB.length} kalem, ${MACHINES.length} makine)`);
+}
+
+/* ================= Dropdown (click anywhere opens) ================= */
+function makeSdd({rootId, barId, inputId, panelId, tagId, items, getText, getMeta, onSelect}){
+  const root = el(rootId);
+  const bar = el(barId);
+  const input = el(inputId);
+  const panel = el(panelId);
+  const tag = el(tagId);
+
+  function open(){ root.classList.add("open"); render(input.value); }
+  function close(){ root.classList.remove("open"); }
+  function toggle(){ root.classList.contains("open") ? close() : open(); }
+
+  function render(q){
+    const query = (q||"").trim().toLowerCase();
+    const filtered = query
+      ? items.filter(it => getText(it).toLowerCase().includes(query))
+      : items;
+
+    panel.innerHTML = "";
+    filtered.slice(0, 160).forEach(it=>{
+      const btn = document.createElement("button");
+      btn.type="button";
+      btn.className="item";
+      btn.innerHTML = `<b>${escapeHtml(getText(it))}</b><div class="meta">${escapeHtml(getMeta(it))}</div>`;
+      btn.onclick = ()=>{ onSelect(it); close(); };
+      panel.appendChild(btn);
+    });
+
+    if(filtered.length === 0){
+      const div = document.createElement("div");
+      div.style.padding="10px 12px";
+      div.className="mini";
+      div.textContent = "Sonuç yok";
+      panel.appendChild(div);
+    }
+  }
+
+  bar.addEventListener("click", ()=>{ toggle(); input.focus(); });
+  input.addEventListener("input", ()=>{ open(); });
+  input.addEventListener("keydown",(e)=>{
+    if(e.key==="Escape") close();
+    if(e.key==="ArrowDown") open();
+  });
+  document.addEventListener("click",(e)=>{
+    if(!e.target.closest("#"+rootId)) close();
+  });
+
+  return {
+    setSelectedLabel: (txt)=> tag.textContent = txt || "Seçilmedi",
+    setItems: (newItems)=> { items = newItems; },
+    open
+  };
+}
+
+let jobSdd=null;
+let macSdd=null;
+
+function initDropdowns(){
+  JOB_DB.sort((a,b)=>a.name.localeCompare(b.name,"tr"));
+  MACHINES.sort((a,b)=>a.name.localeCompare(b.name,"tr"));
+
+  jobSdd = makeSdd({
+    rootId:"jobSdd", barId:"jobBar", inputId:"jobSearch", panelId:"jobPanel", tagId:"jobTag",
+    items: JOB_DB,
+    getText: it=>it.name,
+    getMeta: it=> `${it.unit} • ${money(it.price)}`,
+    onSelect: (it)=>{
+      state.selectedJobCode = it.code;
+      jobSdd.setSelectedLabel("Seçildi");
+      el("jobSearch").value = it.name;
+      el("jobUnit").value = it.unit;
+      el("jobPrice").value = money(it.price);
+      recalcJobLine();
+    }
+  });
+
+  macSdd = makeSdd({
+    rootId:"macSdd", barId:"macBar", inputId:"macSearch", panelId:"macPanel", tagId:"macTag",
+    items: MACHINES,
+    getText: it=>it.name,
+    getMeta: it=> `Günlük • ${money(it.daily)}`,
+    onSelect: (it)=>{
+      state.selectedMachineId = it.id;
+      macSdd.setSelectedLabel("Seçildi");
+      el("macSearch").value = it.name;
+      el("macDaily").value = money(it.daily);
+      recalcMacLine();
+    }
+  });
+}
+
+function getSelectedJob(){ return JOB_DB.find(x=>x.code===state.selectedJobCode)||null; }
+function getSelectedMachine(){ return MACHINES.find(x=>x.id===state.selectedMachineId)||null; }
+
+function recalcJobLine(){
+  const job = getSelectedJob();
+  const qty = num(el("jobQty").value);
+  el("jobLineTotal").value = money((job?num(job.price):0)*qty);
+}
+function recalcMacLine(){
+  const m = getSelectedMachine();
+  const days = num(el("macDays").value);
+  el("macLineTotal").value = money((m?num(m.daily):0)*days);
+}
+function recalcOthLine(){
+  el("othLineTotal").value = money(num(el("othPrice").value)*num(el("othQty").value));
+}
+
+el("jobQty").addEventListener("input", recalcJobLine);
+el("macDays").addEventListener("input", recalcMacLine);
+el("othPrice").addEventListener("input", recalcOthLine);
+el("othQty").addEventListener("input", recalcOthLine);
+
+function render(){
+  const incomeT = el("incomeTable");
+  incomeT.innerHTML="";
+  state.incomeLines.forEach((ln,idx)=>{
+    const total = num(ln.unitPrice)*num(ln.qty);
+    const tr=document.createElement("tr");
+    tr.innerHTML=`
+      <td>${escapeHtml(ln.name)}</td>
+      <td>${escapeHtml(ln.note||"")}</td>
+      <td>${escapeHtml(ln.unit)}</td>
+      <td class="right">${money(ln.unitPrice)}</td>
+      <td class="right">${nf.format(num(ln.qty))}</td>
+      <td class="right"><b>${money(total)}</b></td>
+      <td class="right no-print"><button class="btn" data-del-income="${idx}">✖</button></td>
+    `;
+    incomeT.appendChild(tr);
+  });
+  el("incomeCount").textContent = `${state.incomeLines.length} satır`;
+
+  const expT = el("expenseTable");
+  expT.innerHTML="";
+  state.expenseLines.forEach((ln,idx)=>{
+    const total = num(ln.unitPrice)*num(ln.qty);
+    const tr=document.createElement("tr");
+    tr.innerHTML=`
+      <td>${escapeHtml(ln.type)}</td>
+      <td>${escapeHtml(ln.name)}</td>
+      <td>${escapeHtml(ln.note||"")}</td>
+      <td class="right">${money(ln.unitPrice)}</td>
+      <td class="right">${nf.format(num(ln.qty))}</td>
+      <td class="right"><b>${money(total)}</b></td>
+      <td class="right no-print"><button class="btn" data-del-exp="${idx}">✖</button></td>
+    `;
+    expT.appendChild(tr);
+  });
+  el("expenseCount").textContent = `${state.expenseLines.length} satır`;
+
+  const income = state.incomeLines.reduce((a,ln)=>a+num(ln.unitPrice)*num(ln.qty),0);
+  const expense = state.expenseLines.reduce((a,ln)=>a+num(ln.unitPrice)*num(ln.qty),0);
+  const net = income-expense;
+  const margin = income>0 ? (net/income)*100 : 0;
+
+  el("sumIncome").textContent = money(income);
+  el("sumExpense").textContent = money(expense);
+  el("sumNet").textContent = money(net);
+  el("sumMargin").textContent = pct(margin);
+
+  const box=el("sumNetBox");
+  box.classList.remove("good","bad");
+  box.classList.add(net>=0 ? "good" : "bad");
+}
+
+/* ================= Buttons ================= */
+el("addJob").onclick=()=>{
+  const job=getSelectedJob();
+  const qty=num(el("jobQty").value);
+  if(!job) return toast("Önce iş kalemi seç.");
+  if(qty<=0) return toast("Miktar 0 olamaz.");
+  state.incomeLines.push({name:job.name,unit:job.unit,unitPrice:num(job.price),qty,note:el("jobNote").value.trim()});
+  el("jobQty").value=""; el("jobNote").value=""; recalcJobLine(); render();
+};
+
+el("clearJob").onclick=()=>{
+  state.selectedJobCode=null;
+  if(jobSdd) jobSdd.setSelectedLabel("Seçilmedi");
+  el("jobSearch").value=""; el("jobUnit").value="-"; el("jobPrice").value="0,00 DZD";
+  el("jobQty").value=""; el("jobNote").value=""; el("jobLineTotal").value="0,00 DZD";
+};
+
+el("addMac").onclick=()=>{
+  const m=getSelectedMachine();
+  const days=num(el("macDays").value);
+  if(!m) return toast("Önce makine seç.");
+  if(days<=0) return toast("Gün sayısı 0 olamaz.");
+  state.expenseLines.push({type:"Makine",name:m.name,unitPrice:num(m.daily),qty:days,note:el("macNote").value.trim()});
+  el("macDays").value=""; el("macNote").value=""; recalcMacLine(); render();
+};
+
+el("addOth").onclick=()=>{
+  const name=el("othName").value.trim();
+  const up=num(el("othPrice").value);
+  const qty=num(el("othQty").value);
+  if(!name) return toast("Gider adı yaz.");
+  if(qty<=0) return toast("Miktar 0 olamaz.");
+  state.expenseLines.push({type:"Diğer",name,unitPrice:up,qty,note:el("othNote").value.trim()});
+  el("othName").value=""; el("othPrice").value=""; el("othQty").value=""; el("othNote").value=""; recalcOthLine(); render();
+};
+
+el("incomeTable").addEventListener("click",(e)=>{
+  const b=e.target.closest("[data-del-income]");
+  if(!b) return;
+  state.incomeLines.splice(Number(b.getAttribute("data-del-income")),1);
+  render();
+});
+el("expenseTable").addEventListener("click",(e)=>{
+  const b=e.target.closest("[data-del-exp]");
+  if(!b) return;
+  state.expenseLines.splice(Number(b.getAttribute("data-del-exp")),1);
+  render();
+});
+
+/* Theme / print */
+const themePref=localStorage.getItem("hm_theme2");
+if(themePref==="dark") document.body.classList.add("dark");
+el("toggleTheme").onclick=()=>{
+  document.body.classList.toggle("dark");
+  localStorage.setItem("hm_theme2", document.body.classList.contains("dark") ? "dark" : "light");
+};
+el("printBtn").onclick=()=>window.print();
+
+/* Save/Load state */
+el("saveBtn").onclick=()=>{
+  localStorage.setItem(LS_KEY, JSON.stringify({savedAt:new Date().toISOString(), state}));
+  toast("Kaydedildi ✅");
+};
+el("loadBtn").onclick=()=>{
+  const raw=localStorage.getItem(LS_KEY);
+  if(!raw) return toast("Kayıt yok.");
+  try{
+    const p=JSON.parse(raw);
+    if(!p?.state) throw 0;
+    Object.assign(state, p.state);
+
+    // refresh selected displays
+    if(state.selectedJobCode){
+      const job=getSelectedJob();
+      if(job){ jobSdd.setSelectedLabel("Seçildi"); el("jobSearch").value=job.name; el("jobUnit").value=job.unit; el("jobPrice").value=money(job.price); }
+    }
+    if(state.selectedMachineId){
+      const m=getSelectedMachine();
+      if(m){ macSdd.setSelectedLabel("Seçildi"); el("macSearch").value=m.name; el("macDaily").value=money(m.daily); }
+    }
+
+    recalcJobLine(); recalcMacLine(); recalcOthLine();
+    render();
+    toast("Yüklendi 📥");
+  }catch{ toast("Kayıt bozuk."); }
+};
+
+el("resetBtn").onclick=()=>{
+  if(!confirm("Her şeyi sıfırlayayım mı?")) return;
+  state.selectedJobCode=null; state.selectedMachineId=null;
+  state.incomeLines=[]; state.expenseLines=[];
+  localStorage.removeItem(LS_KEY);
+  el("clearJob").click();
+  el("macTag").textContent="Seçilmedi"; el("macSearch").value=""; el("macDaily").value="0,00 DZD"; el("macDays").value=""; el("macNote").value=""; el("macLineTotal").value="0,00 DZD";
+  el("othName").value=""; el("othPrice").value=""; el("othQty").value=""; el("othNote").value=""; recalcOthLine();
+  render();
+  toast("Sıfırlandı 🧹");
+};
+
+/* Export helpers */
+function downloadFile(filename, content, type){
+  const blob=new Blob([content],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url; a.download=filename;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+}
+function exportCsv(scope){
+  const rows=[];
+  rows.push(["BOLUM","TIP","AD","NOT","BIRIM","BIRIM_FIYAT","MIKTAR","TOPLAM"]);
+  if(scope==="income"||scope==="all"){
+    state.incomeLines.forEach(ln=>rows.push(["GELIR","İş Kalemi",ln.name,ln.note||"",ln.unit,ln.unitPrice,ln.qty,num(ln.unitPrice)*num(ln.qty)]));
+  }
+  if(scope==="all"){
+    state.expenseLines.forEach(ln=>rows.push(["GIDER",ln.type,ln.name,ln.note||"","",ln.unitPrice,ln.qty,num(ln.unitPrice)*num(ln.qty)]));
+  }
+  const income=state.incomeLines.reduce((a,ln)=>a+num(ln.unitPrice)*num(ln.qty),0);
+  const expense=state.expenseLines.reduce((a,ln)=>a+num(ln.unitPrice)*num(ln.qty),0);
+  rows.push(["TOPLAM","","GELIR","","","","",income]);
+  rows.push(["TOPLAM","","GIDER","","","","",expense]);
+  rows.push(["TOPLAM","","NET","","","","",income-expense]);
+
+  const csv=rows.map(r=>r.map(x=>{
+    const s=String(x??"");
+    return /[",\n]/.test(s) ? `"${s.replaceAll('"','""')}"` : s;
+  }).join(",")).join("\n");
+
+  downloadFile(scope==="income"?"gelir.csv":"hakedis_maliyet.csv", csv, "text/csv;charset=utf-8");
+  toast("CSV indirildi ⬇️");
+}
+el("exportIncomeCsv").onclick=()=>exportCsv("income");
+el("exportAllCsv").onclick=()=>exportCsv("all");
+
+el("exportJson").onclick=()=>{
+  const payload={generatedAt:new Date().toISOString(),currency:"DZD",income:state.incomeLines,expense:state.expenseLines};
+  downloadFile("hakedis_maliyet.json", JSON.stringify(payload,null,2), "application/json");
+  toast("JSON indirildi ⬇️");
+};
+
+el("exportDataJson").onclick=()=>{
+  downloadFile("data_export.json", JSON.stringify({jobs:JOB_DB,machines:MACHINES}, null, 2), "application/json");
+  toast("Data JSON indirildi ⬇️");
+};
+
+/* Reload json */
+el("reloadJson").onclick=async ()=>{
+  try{
+    setDataBadge("Data: yenileniyor…");
+    await loadDataFromJson();
+    initDropdowns();
+    // clear selections (avoid mismatch)
+    el("clearJob").click();
+    el("macTag").textContent="Seçilmedi"; el("macSearch").value=""; el("macDaily").value="0,00 DZD";
+    state.selectedMachineId=null;
+    render();
+    toast("Data yenilendi ✅");
+  }catch(err){
+    setDataBadge("Data: hata");
+    alert("Data dosyaları yüklenemedi. Sayfayı http:// ile açtığından ve data/ klasörü aynı yerde olduğundan emin ol.\n\nHata: " + err.message);
+  }
+};
+
+/* ================= Excel Import (optional) =================
+   Reads your Excel and overwrites JOB_DB (and MACHINES if sheet exists).
+   Needs internet for SheetJS CDN.
+*/
+async function ensureXlsxLib(){
+  if(window.XLSX) return;
+  await new Promise((resolve,reject)=>{
+    const s=document.createElement("script");
+    s.src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js";
+    s.onload=resolve; s.onerror=reject;
+    document.head.appendChild(s);
+  });
+}
+function parseJobsFromBaseDeDonnee(rows){
+  // rows: array-of-arrays
+  let hdr=-1;
+  for(let i=0;i<rows.length;i++){
+    const r=rows[i]||[];
+    if(String(r[0]||"").trim().toUpperCase()==="ART" && String(r[1]||"").trim().toUpperCase()==="DESCRIPTION"){
+      hdr=i; break;
+    }
+  }
+  if(hdr<0) throw new Error("Header (ART/DESCRIPTION) bulunamadı.");
+
+  const header1 = rows[hdr] || [];
+  const header2 = rows[hdr+1] || [];
+
+  // price col = where header2 == DZD (under PRIX UNITAIRES)
+  let priceIdx = -1;
+  for(let c=0;c<header2.length;c++){
+    if(String(header2[c]||"").trim().toUpperCase()==="DZD"){
+      priceIdx = c; break;
+    }
+  }
+  if(priceIdx<0) throw new Error("DZD kolonu bulunamadı.");
+
+  const out=[];
+  for(let i=hdr+2;i<rows.length;i++){
+    const r = rows[i]||[];
+    const code = String(r[0]||"").trim();
+    const name = String(r[1]||"").trim();
+    const unit = String(r[2]||"").trim();
+    const priceRaw = r[priceIdx];
+
+    if(!code || code.toLowerCase()==="nan") continue; // section rows
+    const p = Number(String(priceRaw||"").replace(",", "."));
+    if(!isFinite(p)) continue;
+
+    out.push({ code: normalizeCode(code), name: name.replaceAll("","'"), unit, price: p });
+  }
+  // sort
+  out.sort((a,b)=>a.name.localeCompare(b.name,"tr"));
+  return out;
+}
+function parseMachinesSheet(sheet){
+  const rows = window.XLSX.utils.sheet_to_json(sheet, { header: 1, blankrows: false });
+  if(!rows.length) return [];
+  const headers = (rows[0]||[]).map(x=>String(x||"").trim().toLowerCase());
+  const nameIdx = headers.indexOf("name")>=0 ? headers.indexOf("name") : headers.indexOf("makine");
+  const dailyIdx = headers.indexOf("daily")>=0 ? headers.indexOf("daily") : headers.indexOf("kira");
+  if(nameIdx<0 || dailyIdx<0) return [];
+  const out=[];
+  for(let i=1;i<rows.length;i++){
+    const r=rows[i]||[];
+    const name=String(r[nameIdx]||"").trim();
+    const d=Number(String(r[dailyIdx]||"").replace(",", "."));
+    if(!name || !isFinite(d)) continue;
+    out.push({ id:name, name, daily:d });
+  }
+  out.sort((a,b)=>a.name.localeCompare(b.name,"tr"));
+  return out;
+}
+
+el("excelInput").addEventListener("change", async (e)=>{
+  const file = e.target.files?.[0];
+  if(!file) return;
+  try{
+    setDataBadge("Data: Excel okunuyor…");
+    await ensureXlsxLib();
+    const buf = await file.arrayBuffer();
+    const wb = window.XLSX.read(buf, { type:"array" });
+
+    // Jobs -> Base_de_donnée
+    const shName = wb.SheetNames.find(n=>n.toLowerCase().includes("base_de")) || wb.SheetNames[0];
+    const sheet = wb.Sheets[shName];
+    const rows = window.XLSX.utils.sheet_to_json(sheet, { header: 1, blankrows: false });
+    const jobs = parseJobsFromBaseDeDonnee(rows);
+
+    // Machines optional -> "Machines"
+    let machines = MACHINES;
+    const macName = wb.SheetNames.find(n=>n.toLowerCase()==="machines" || n.toLowerCase().includes("machine"));
+    if(macName){
+      const mSheet = wb.Sheets[macName];
+      const parsed = parseMachinesSheet(mSheet);
+      if(parsed.length) machines = parsed;
+    }
+
+    JOB_DB = jobs;
+    MACHINES = machines;
+
+    localStorage.setItem(LS_DATA_CACHE, JSON.stringify({ jobs: JOB_DB, machines: MACHINES }));
+    setDataBadge(`Data: Excel (${JOB_DB.length} kalem, ${MACHINES.length} makine)`);
+    initDropdowns();
+    el("clearJob").click();
+    el("macTag").textContent="Seçilmedi"; el("macSearch").value=""; el("macDaily").value="0,00 DZD";
+    state.selectedMachineId=null;
+    render();
+    toast("Excel data yüklendi ✅");
+  }catch(err){
+    setDataBadge("Data: hata");
+    alert("Excel okunamadı.\n\n" + err.message);
+  }finally{
+    e.target.value = "";
+  }
+});
+
+/* ================= init ================= */
+(async function boot(){
+  try{
+    // init placeholders
+    el("jobUnit").value="-";
+    el("jobPrice").value="0,00 DZD";
+    el("jobLineTotal").value="0,00 DZD";
+    el("macDaily").value="0,00 DZD";
+    el("macLineTotal").value="0,00 DZD";
+    el("othLineTotal").value="0,00 DZD";
+
+    await loadDataFromJson();
+    initDropdowns();
+    render();
+  }catch(err){
+    setDataBadge("Data: bulunamadı");
+    alert("Data yüklenemedi.\n\nBu sayfayı 'file://...' ile açıyorsan fetch çalışmayabilir.\nÇözüm: klasörde terminal aç ->  python3 -m http.server 8000  -> http://localhost:8000\n\nHata: " + err.message);
+  }
+})();
+</script>
+</body>
+</html>
